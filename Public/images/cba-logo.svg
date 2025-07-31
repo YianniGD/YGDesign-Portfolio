@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 644 208">
+  <!-- Generator: Adobe Illustrator 29.5.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 141)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #58a86d;
+      }
+
+      .st1 {
+        fill: #bbae46;
+      }
+
+      .st2 {
+        fill: #8a8868;
+      }
+
+      .st3 {
+        fill: #3e67c3;
+      }
+
+      .st4 {
+        fill: #c0aa41;
+      }
+
+      .st5 {
+        fill: #4467b1;
+      }
+
+      .st6 {
+        fill: #fa6752;
+      }
+
+      .st7 {
+        fill: #d4c068;
+      }
+
+      .st8 {
+        fill: #8e806b;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1">
+    <g>
+      <path class="st5" d="M274.1,127.7c-3.8,0-7-1.3-9.6-3.9s-2.5-3.3-2.9-5.3-.6-5-.6-8.9.2-6.9.6-8.9c.4-2.1,1.4-3.8,2.9-5.4,2.6-2.6,5.8-3.9,9.6-3.9,6.9,0,11.9,4,13.1,11.3h-7.1c-.8-3.1-2.7-5.1-6-5.1s-3.4.6-4.5,1.9c-1.5,1.5-1.8,3.2-1.8,10.1s.3,8.5,1.8,10.1c1,1.2,2.5,1.8,4.5,1.8,3.4,0,5.2-2,6-5h7.1c-1.2,7.2-6.3,11.2-13.1,11.2Z"/>
+      <path class="st5" d="M313.4,123.8c-2.5,2.5-5.6,3.9-9.6,3.9s-7.2-1.4-9.7-3.9c-3.6-3.6-3.5-8-3.5-14.2s-.1-10.6,3.5-14.2c2.5-2.5,5.6-3.9,9.7-3.9s7.1,1.4,9.6,3.9c3.6,3.6,3.6,8.1,3.6,14.2s0,10.6-3.6,14.2ZM308.3,99.6c-1-1.2-2.5-1.9-4.4-1.9s-3.5.8-4.5,1.9c-1.4,1.5-1.7,3.2-1.7,10s.4,8.5,1.7,10c1,1.2,2.6,1.9,4.5,1.9s3.4-.8,4.4-1.9c1.3-1.5,1.8-3.1,1.8-10s-.4-8.5-1.8-10Z"/>
+      <path class="st5" d="M324.4,127.4v-35.6h7v29.4h16.2v6.2h-23.1Z"/>
+      <path class="st5" d="M373.7,123.8c-2.5,2.5-5.5,3.9-9.6,3.9s-7.2-1.4-9.7-3.9c-3.6-3.6-3.5-8-3.5-14.2s0-10.6,3.5-14.2c2.5-2.5,5.6-3.9,9.7-3.9s7.1,1.4,9.6,3.9c3.6,3.6,3.6,8.1,3.6,14.2s0,10.6-3.6,14.2ZM368.5,99.6c-1-1.2-2.5-1.9-4.4-1.9s-3.5.8-4.5,1.9c-1.3,1.5-1.7,3.2-1.7,10s.4,8.5,1.7,10c1,1.2,2.6,1.9,4.5,1.9s3.4-.8,4.4-1.9c1.4-1.5,1.8-3.1,1.8-10s-.4-8.5-1.8-10Z"/>
+      <path class="st5" d="M397.2,127.7c-7.3,0-13.1-5-13.1-12.5v-23.4h6.9v23.2c0,4.1,2.4,6.6,6.2,6.6s6.2-2.5,6.2-6.6v-23.2h6.9v23.4c0,7.6-5.8,12.5-13.1,12.5Z"/>
+      <path class="st5" d="M437.2,127.4l-7-14.2h-5v14.2h-6.9v-35.6h14c7.2,0,11.5,5,11.5,10.9s-3,8.1-6.5,9.4l8,15.4h-8.1ZM431.8,98h-6.6v9.4h6.6c3.1,0,5.1-2,5.1-4.7s-2-4.7-5.1-4.7Z"/>
+      <path class="st5" d="M478.1,127.4h-14.9v-35.6h14.3c7,0,11,3.9,11,10s-2.6,6.5-4.4,7.4c2.1,1,4.9,3.2,4.9,8s-4.6,10.3-10.9,10.3ZM477,98h-6.8v8.2h6.8c2.9,0,4.6-1.7,4.6-4.1s-1.7-4.1-4.6-4.1ZM477.4,112.4h-7.2v8.8h7.2c3.2,0,4.7-2,4.7-4.4s-1.5-4.4-4.7-4.4Z"/>
+      <path class="st5" d="M496.4,127.4v-35.6h7v29.4h16.2v6.2h-23.1Z"/>
+      <path class="st5" d="M525.5,127.4v-35.6h6.9v35.6h-6.9Z"/>
+      <path class="st5" d="M562.1,127.4l-14.1-21.9v21.9h-7v-35.6h6.2l14.1,21.8v-21.8h7v35.6h-6.2Z"/>
+      <path class="st5" d="M599.1,124c-2.3,2.4-5.7,3.4-9.4,3.4h-12.9v-35.6h12.9c3.7,0,7.1,1.1,9.4,3.4,4,4,3.6,8.9,3.6,14.3s.4,10.6-3.6,14.6ZM594.3,100.2c-1.2-1.4-2.8-2.2-5.2-2.2h-5.2v23.2h5.2c2.4,0,4-.8,5.2-2.2,1.3-1.6,1.5-4.2,1.5-9.6s-.2-7.7-1.5-9.3Z"/>
+      <path class="st5" d="M282.4,177.6l-2.1-6.3h-12.7l-2.1,6.3h-7.3l13-35.6h5.5l13,35.6h-7.3ZM274.1,152.5l-4.5,13h8.9l-4.4-13Z"/>
+      <path class="st5" d="M329.4,177.6h-5.8l-6.6-21.6-6.6,21.6h-5.8l-9.5-35.6h7.3l5.5,22.5,6.5-22.5h5.2l6.5,22.5,5.5-22.5h7.3l-9.6,35.6Z"/>
+      <path class="st5" d="M369.1,177.6l-2.1-6.3h-12.7l-2.2,6.3h-7.2l13-35.6h5.5l13,35.6h-7.2ZM360.8,152.5l-4.5,13h8.8l-4.3-13Z"/>
+      <path class="st5" d="M406,177.6l-7-14.2h-5v14.2h-7v-35.6h14c7.2,0,11.6,5,11.6,10.9s-3.1,8.1-6.5,9.4l7.9,15.4h-8ZM400.6,148.2h-6.6v9.4h6.6c3,0,5-2,5-4.7s-2-4.7-5-4.7Z"/>
+      <path class="st5" d="M426.1,177.6v-35.6h23.5v6.2h-16.5v8.3h14.1v6.2h-14.1v8.7h16.5v6.2h-23.5Z"/>
+      <path class="st5" d="M483.7,177.6l-14.1-21.9v21.9h-7v-35.6h6.2l14.1,21.8v-21.8h7v35.6h-6.2Z"/>
+      <path class="st5" d="M504.5,177.6v-35.6h23.5v6.2h-16.5v8.3h14.1v6.2h-14.1v8.7h16.5v6.2h-23.5Z"/>
+      <path class="st5" d="M550.8,177.9c-5.4,0-9.5-1.1-13-4.7l4.5-4.5c2.2,2.2,5.3,3,8.6,3s6.3-1.5,6.3-4.4-.4-2.3-1.1-3c-.7-.7-1.5-1-3.2-1.2l-4.3-.6c-3.1-.4-5.3-1.4-6.9-3-1.7-1.7-2.6-4-2.6-7,0-6.4,4.7-10.8,12.4-10.8s8.5,1.2,11.5,4.2l-4.4,4.4c-2.2-2.2-5-2.5-7.3-2.5-3.7,0-5.5,2-5.5,4.5s.3,1.9,1,2.5c.7.7,1.9,1.2,3.3,1.4l4.2.6c3.3.5,5.3,1.4,6.8,2.8,1.9,1.8,2.8,4.4,2.8,7.5,0,6.9-5.8,10.8-13.2,10.8Z"/>
+      <path class="st5" d="M586.4,177.9c-5.4,0-9.5-1.1-13-4.7l4.5-4.5c2.2,2.2,5.3,3,8.6,3s6.3-1.5,6.3-4.4-.3-2.3-1.1-3c-.7-.7-1.5-1-3.2-1.2l-4.3-.6c-3-.4-5.3-1.4-6.9-3-1.7-1.7-2.5-4-2.5-7,0-6.4,4.7-10.8,12.4-10.8s8.4,1.2,11.5,4.2l-4.4,4.4c-2.2-2.2-4.9-2.5-7.3-2.5-3.7,0-5.5,2-5.5,4.5s.3,1.9,1.1,2.5c.7.7,1.8,1.2,3.3,1.4l4.2.6c3.2.5,5.3,1.4,6.8,2.8,1.9,1.8,2.8,4.4,2.8,7.5,0,6.9-5.8,10.8-13.2,10.8Z"/>
+    </g>
+  </g>
+  <g id="Layer_2">
+    <g>
+      <ellipse class="st7" cx="201.1" cy="194.6" rx="4.5" ry="4.1"/>
+      <ellipse class="st7" cx="192" cy="189.5" rx="3.3" ry="3.1"/>
+      <ellipse class="st7" cx="184.2" cy="192.6" rx="3.3" ry="3.1"/>
+      <ellipse class="st7" cx="187" cy="167.7" rx="3.8" ry="3.5"/>
+      <ellipse class="st7" cx="176.7" cy="168.2" rx="3.8" ry="3.5"/>
+      <ellipse class="st7" cx="210.4" cy="185" rx="3.3" ry="3.1"/>
+      <ellipse class="st7" cx="199.2" cy="184.7" rx="3.5" ry="3.3"/>
+      <ellipse class="st7" cx="202" cy="169.8" rx="9.2" ry="8.6"/>
+      <ellipse class="st1" cx="209.3" cy="145.6" rx="8.6" ry="8"/>
+      <ellipse class="st4" cx="215" cy="119.9" rx="7.4" ry="6.9"/>
+      <ellipse class="st1" cx="200.5" cy="123.1" rx="5.6" ry="5.2"/>
+      <ellipse class="st7" cx="191.7" cy="109" rx="8.7" ry="8.1"/>
+      <ellipse class="st7" cx="198" cy="86.8" rx="7.2" ry="6.6"/>
+      <ellipse class="st7" cx="219.9" cy="79.1" rx="7.2" ry="6.6"/>
+      <ellipse class="st7" cx="232.7" cy="96.3" rx="7.2" ry="6.6"/>
+      <ellipse class="st7" cx="250.1" cy="96.6" rx="7.2" ry="6.6"/>
+      <ellipse class="st7" cx="244.5" cy="128.2" rx="7.2" ry="6.6"/>
+      <ellipse class="st7" cx="231.4" cy="157.5" rx="7.2" ry="6.6"/>
+      <ellipse class="st7" cx="166.4" cy="109.6" rx="7.2" ry="6.6"/>
+      <ellipse class="st7" cx="176.7" cy="142.6" rx="7.2" ry="6.6"/>
+      <ellipse class="st7" cx="171.5" cy="81.5" rx="7.2" ry="6.6"/>
+      <ellipse class="st7" cx="180.5" cy="64" rx="6.5" ry="6"/>
+      <ellipse class="st7" cx="198.9" cy="58" rx="6.5" ry="6"/>
+      <ellipse class="st7" cx="216.7" cy="62" rx="6.5" ry="6"/>
+      <ellipse class="st7" cx="205.5" cy="35.7" rx="5.7" ry="5.3"/>
+      <ellipse class="st7" cx="230.6" cy="39.6" rx="6.5" ry="6.1"/>
+      <ellipse class="st7" cx="250.4" cy="26.6" rx="6.5" ry="6.1"/>
+      <ellipse class="st7" cx="267.2" cy="17.1" rx="7.2" ry="6.7"/>
+      <ellipse class="st7" cx="269.4" cy="40.8" rx="7.2" ry="6.7"/>
+      <ellipse class="st7" cx="268.8" cy="60.1" rx="7.2" ry="6.7"/>
+      <ellipse class="st7" cx="239.9" cy="85.7" rx="4.3" ry="4"/>
+      <ellipse class="st7" cx="242.1" cy="107.2" rx="4.3" ry="4"/>
+      <ellipse class="st7" cx="208.6" cy="107.7" rx="4.3" ry="4"/>
+      <ellipse class="st1" cx="190.4" cy="127.2" rx="4.3" ry="4"/>
+      <ellipse class="st1" cx="199.6" cy="133" rx="4.3" ry="4"/>
+      <ellipse class="st1" cx="222.8" cy="142.6" rx="4.3" ry="4"/>
+      <ellipse class="st7" cx="218.5" cy="165.5" rx="4.3" ry="4"/>
+      <ellipse class="st1" cx="192.9" cy="146.9" rx="4.3" ry="4"/>
+      <ellipse class="st1" cx="199.6" cy="154.5" rx="4.3" ry="4"/>
+      <ellipse class="st7" cx="185.5" cy="154.7" rx="4.3" ry="4"/>
+      <ellipse class="st7" cx="175.3" cy="155.9" rx="4.3" ry="4"/>
+      <ellipse class="st7" cx="179.8" cy="128.6" rx="4.3" ry="4"/>
+      <ellipse class="st7" cx="177.8" cy="91.8" rx="4.3" ry="4"/>
+      <ellipse class="st7" cx="165" cy="64" rx="3.3" ry="3.1"/>
+      <ellipse class="st7" cx="170.8" cy="59.1" rx="2.8" ry="2.6"/>
+      <ellipse class="st7" cx="175.5" cy="53.4" rx="2.8" ry="2.6"/>
+      <ellipse class="st7" cx="181.4" cy="48.6" rx="2.8" ry="2.6"/>
+      <ellipse class="st7" cx="187.3" cy="44.1" rx="2.8" ry="2.6"/>
+      <ellipse class="st7" cx="192.1" cy="40.7" rx="2.4" ry="2.3"/>
+      <ellipse class="st7" cx="197.2" cy="38.1" rx="2.4" ry="2.3"/>
+      <ellipse class="st7" cx="211.2" cy="28.6" rx="2.4" ry="2.3"/>
+      <ellipse class="st7" cx="215.5" cy="26" rx="2.4" ry="2.3"/>
+      <ellipse class="st7" cx="232.9" cy="19" rx="2.4" ry="2.3"/>
+      <ellipse class="st7" cx="241.8" cy="17.5" rx="2.8" ry="2.6"/>
+      <ellipse class="st7" cx="250.1" cy="14.1" rx="2.8" ry="2.6"/>
+      <ellipse class="st7" cx="256" cy="17.1" rx="2.8" ry="2.6"/>
+      <ellipse class="st7" cx="279.6" cy="13.2" rx="3.3" ry="3"/>
+      <ellipse class="st7" cx="278.2" cy="22.5" rx="3.3" ry="3"/>
+      <ellipse class="st7" cx="262.9" cy="28.3" rx="3.6" ry="3.3"/>
+      <ellipse class="st7" cx="271" cy="28.2" rx="3.6" ry="3.3"/>
+      <ellipse class="st7" cx="286.3" cy="38.5" rx="3.6" ry="3.3"/>
+      <ellipse class="st7" cx="282.7" cy="29.6" rx="3.3" ry="3"/>
+      <ellipse class="st7" cx="288.1" cy="20.1" rx="4.7" ry="4.4"/>
+      <ellipse class="st7" cx="243.6" cy="38.5" rx="3.5" ry="3.3"/>
+      <ellipse class="st7" cx="238.3" cy="24.5" rx="3.5" ry="3.3"/>
+      <ellipse class="st7" cx="230.5" cy="26.6" rx="2.9" ry="2.7"/>
+      <ellipse class="st7" cx="222.6" cy="25.4" rx="3.8" ry="3.5"/>
+      <ellipse class="st7" cx="215.9" cy="32.8" rx="2.9" ry="2.7"/>
+      <ellipse class="st7" cx="216.3" cy="39.6" rx="2.9" ry="2.7"/>
+      <ellipse class="st7" cx="207.3" cy="48.9" rx="3.5" ry="3.2"/>
+      <ellipse class="st7" cx="215.9" cy="46" rx="2.7" ry="2.5"/>
+      <ellipse class="st7" cx="214.9" cy="51.7" rx="2.3" ry="2.1"/>
+      <ellipse class="st7" cx="209.9" cy="55.1" rx="2.3" ry="2.1"/>
+      <ellipse class="st7" cx="198" cy="43.5" rx="2.6" ry="2.4"/>
+      <ellipse class="st7" cx="220.9" cy="43.7" rx="2" ry="1.9"/>
+      <ellipse class="st7" cx="220.5" cy="36.7" rx="1.6" ry="1.5"/>
+      <ellipse class="st7" cx="222.1" cy="32" rx="1.6" ry="1.5"/>
+      <ellipse class="st7" cx="239.7" cy="31.5" rx="1.6" ry="1.5"/>
+      <ellipse class="st7" cx="250.6" cy="37.9" rx="1.6" ry="1.5"/>
+      <ellipse class="st7" cx="259" cy="34.7" rx="2.9" ry="2.7"/>
+      <ellipse class="st7" cx="282.4" cy="43.4" rx="1.6" ry="1.5"/>
+      <ellipse class="st7" cx="278.8" cy="36.2" rx="1.6" ry="1.5"/>
+      <ellipse class="st7" cx="291.2" cy="28.9" rx="1.6" ry="1.5"/>
+      <ellipse class="st7" cx="278.5" cy="50.9" rx="2.2" ry="2.1"/>
+      <ellipse class="st7" cx="265.5" cy="70.1" rx="2.2" ry="2.1"/>
+      <ellipse class="st7" cx="253.1" cy="80.7" rx="2.2" ry="2.1"/>
+      <ellipse class="st7" cx="198.2" cy="67.6" rx="2.2" ry="2.1"/>
+      <ellipse class="st7" cx="198.1" cy="72.3" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="231.7" cy="86.4" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="226" cy="88.6" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="248.5" cy="85.7" rx="2.7" ry="2.5"/>
+      <ellipse class="st7" cx="258.2" cy="87.5" rx="3.4" ry="3.1"/>
+      <ellipse class="st7" cx="260.5" cy="78.6" rx="3.4" ry="3.1"/>
+      <ellipse class="st7" cx="196.2" cy="77.2" rx="1.9" ry="1.8"/>
+      <ellipse class="st2" cx="224" cy="68.4" rx="1.9" ry="1.8"/>
+      <ellipse class="st2" cx="232" cy="72.9" rx="2.6" ry="2.4"/>
+      <ellipse class="st2" cx="233.6" cy="80.2" rx="2.6" ry="2.5"/>
+      <ellipse class="st2" cx="239.5" cy="73.3" rx="1.9" ry="1.8"/>
+      <ellipse class="st8" cx="243.6" cy="62.6" rx="7.4" ry="6.9"/>
+      <ellipse class="st2" cx="246.1" cy="78.4" rx="3.3" ry="3.1"/>
+      <ellipse class="st2" cx="252.9" cy="72.3" rx="3.4" ry="3.2"/>
+      <ellipse class="st2" cx="260.5" cy="67.1" rx="1.9" ry="1.8"/>
+      <ellipse class="st2" cx="255.6" cy="62.1" rx="1.9" ry="1.8"/>
+      <ellipse class="st2" cx="258.4" cy="57.6" rx="1.9" ry="1.8"/>
+      <ellipse class="st2" cx="263.5" cy="50.6" rx="1.9" ry="1.8"/>
+      <ellipse class="st2" cx="256.5" cy="44.5" rx="4.4" ry="4.1"/>
+      <ellipse class="st2" cx="251.5" cy="52.2" rx="2.7" ry="2.5"/>
+      <ellipse class="st2" cx="248.5" cy="43.9" rx="1.9" ry="1.8"/>
+      <ellipse class="st2" cx="243.6" cy="48.8" rx="3.1" ry="2.9"/>
+      <ellipse class="st2" cx="239.6" cy="43.2" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="236.1" cy="52.8" rx="2.6" ry="2.4"/>
+      <ellipse class="st2" cx="228.8" cy="55.5" rx="3.5" ry="3.3"/>
+      <ellipse class="st7" cx="201.1" cy="48.5" rx="1.9" ry="1.8"/>
+      <ellipse class="st2" cx="227.2" cy="48.7" rx="1.9" ry="1.8"/>
+      <ellipse class="st2" cx="222.2" cy="50.5" rx="2.8" ry="2.6"/>
+      <ellipse class="st2" cx="230.3" cy="64.3" rx="3.2" ry="3"/>
+      <ellipse class="st7" cx="220.6" cy="92.4" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="202.7" cy="95.8" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="193.3" cy="96.7" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="198.7" cy="99" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="189.6" cy="95" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="171" cy="64.7" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="171.9" cy="70.2" rx="2.8" ry="2.6"/>
+      <ellipse class="st7" cx="183.6" cy="74.7" rx="2.8" ry="2.6"/>
+      <ellipse class="st7" cx="190.5" cy="78.4" rx="2.8" ry="2.6"/>
+      <ellipse class="st7" cx="212.5" cy="89.6" rx="3.4" ry="3.1"/>
+      <ellipse class="st7" cx="208.7" cy="83.3" rx="3.1" ry="2.9"/>
+      <ellipse class="st7" cx="208.1" cy="98.7" rx="3.1" ry="2.9"/>
+      <ellipse class="st7" cx="215.6" cy="102.3" rx="3.5" ry="3.3"/>
+      <ellipse class="st7" cx="177.6" cy="115.6" rx="3.5" ry="3.3"/>
+      <ellipse class="st7" cx="172.5" cy="98.6" rx="3.1" ry="2.9"/>
+      <ellipse class="st7" cx="168.6" cy="92.9" rx="3.1" ry="2.9"/>
+      <ellipse class="st7" cx="162.8" cy="87.8" rx="3" ry="2.8"/>
+      <ellipse class="st7" cx="161.7" cy="80.8" rx="2.2" ry="2"/>
+      <ellipse class="st7" cx="161.6" cy="94.7" rx="2.6" ry="2.4"/>
+      <ellipse class="st7" cx="161.1" cy="101.3" rx="2.1" ry="1.9"/>
+      <ellipse class="st7" cx="166.1" cy="99.3" rx="2.1" ry="1.9"/>
+      <ellipse class="st7" cx="179.7" cy="102.3" rx="2.7" ry="2.5"/>
+      <ellipse class="st7" cx="184.8" cy="98" rx="2.7" ry="2.5"/>
+      <ellipse class="st7" cx="166.3" cy="125.4" rx="5.4" ry="5"/>
+      <ellipse class="st7" cx="167.4" cy="135.1" rx="3.2" ry="3"/>
+      <ellipse class="st7" cx="160.6" cy="118.1" rx="2.5" ry="2.3"/>
+      <ellipse class="st3" cx="153.6" cy="113.1" rx="2.5" ry="2.3"/>
+      <ellipse class="st3" cx="153.6" cy="105.8" rx="4.2" ry="3.9"/>
+      <ellipse class="st3" cx="153.6" cy="95.5" rx="5.7" ry="5.3"/>
+      <ellipse class="st3" cx="153.6" cy="83.6" rx="6" ry="5.6"/>
+      <ellipse class="st3" cx="153.6" cy="70.4" rx="7.1" ry="6.6"/>
+      <ellipse class="st3" cx="153.6" cy="56" rx="7.3" ry="6.8"/>
+      <ellipse class="st3" cx="146.8" cy="46.4" rx="3" ry="2.8"/>
+      <ellipse class="st3" cx="143.7" cy="41.1" rx="2.5" ry="2.3"/>
+      <ellipse class="st3" cx="140" cy="37" rx="2.3" ry="2.1"/>
+      <ellipse class="st3" cx="137.3" cy="33" rx="2" ry="1.8"/>
+      <ellipse class="st3" cx="134.6" cy="30" rx="1.7" ry="1.6"/>
+      <ellipse class="st3" cx="132.1" cy="27" rx="1.5" ry="1.4"/>
+      <ellipse class="st3" cx="130" cy="24.7" rx="1.2" ry="1.1"/>
+      <ellipse class="st3" cx="127.8" cy="22.6" rx="1.2" ry="1.1"/>
+      <ellipse class="st3" cx="125.8" cy="20.5" rx="1" ry=".9"/>
+      <ellipse class="st3" cx="123.6" cy="19.1" rx="1" ry=".9"/>
+      <ellipse class="st3" cx="159.6" cy="47.1" rx="3" ry="2.8"/>
+      <ellipse class="st3" cx="162.7" cy="41.7" rx="2.5" ry="2.3"/>
+      <ellipse class="st3" cx="166.5" cy="37.6" rx="2.3" ry="2.1"/>
+      <ellipse class="st3" cx="169.1" cy="33.6" rx="2" ry="1.8"/>
+      <ellipse class="st3" cx="171.8" cy="30.7" rx="1.7" ry="1.6"/>
+      <ellipse class="st3" cx="174.3" cy="27.7" rx="1.5" ry="1.4"/>
+      <ellipse class="st3" cx="176.5" cy="25.3" rx="1.2" ry="1.1"/>
+      <ellipse class="st3" cx="178.6" cy="23.3" rx="1.2" ry="1.1"/>
+      <ellipse class="st3" cx="180.6" cy="21.2" rx="1" ry=".9"/>
+      <ellipse class="st3" cx="182.9" cy="19.7" rx="1" ry=".9"/>
+      <ellipse class="st7" cx="175" cy="122" rx="2.5" ry="2.3"/>
+      <ellipse class="st7" cx="183.8" cy="119.9" rx="2.5" ry="2.3"/>
+      <ellipse class="st7" cx="172.5" cy="131.4" rx="2.5" ry="2.3"/>
+      <ellipse class="st1" cx="186.1" cy="134.4" rx="2.5" ry="2.3"/>
+      <ellipse class="st1" cx="191.6" cy="135.6" rx="2.5" ry="2.3"/>
+      <ellipse class="st1" cx="187.1" cy="140.6" rx="2.3" ry="2.2"/>
+      <ellipse class="st1" cx="219.7" cy="134.8" rx="2.3" ry="2.2"/>
+      <ellipse class="st1" cx="214.6" cy="136.5" rx="1.9" ry="1.8"/>
+      <ellipse class="st1" cx="225.4" cy="132.6" rx="1.9" ry="1.8"/>
+      <ellipse class="st1" cx="217.2" cy="130.9" rx="2.3" ry="2.1"/>
+      <ellipse class="st1" cx="209.1" cy="130.4" rx="3.5" ry="3.3"/>
+      <ellipse class="st7" cx="228.3" cy="117" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="218.7" cy="109" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="203.4" cy="113.3" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="203" cy="102.3" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="206.7" cy="91.8" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="215.7" cy="95" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="221.7" cy="97.7" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="223.6" cy="104.4" rx="2.6" ry="2.4"/>
+      <ellipse class="st7" cx="225.6" cy="111.8" rx="2.6" ry="2.5"/>
+      <ellipse class="st7" cx="230.5" cy="107.2" rx="3.1" ry="2.9"/>
+      <ellipse class="st7" cx="230.8" cy="122.5" rx="3" ry="2.8"/>
+      <ellipse class="st7" cx="234.9" cy="115.2" rx="2.9" ry="2.7"/>
+      <ellipse class="st7" cx="244.5" cy="117.2" rx="2.7" ry="2.5"/>
+      <ellipse class="st1" cx="223.1" cy="127.2" rx="2.4" ry="2.2"/>
+      <ellipse class="st7" cx="176.7" cy="107.2" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="186.1" cy="90.8" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="181.2" cy="84.7" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="188" cy="84.6" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="184.2" cy="80.8" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="180" cy="79.7" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="177.8" cy="73.9" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="163.2" cy="75.3" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="166.1" cy="71" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="187.8" cy="70.4" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="192.8" cy="72.9" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="192.1" cy="65.8" rx="1.9" ry="1.8"/>
+      <ellipse class="st1" cx="198.1" cy="141.4" rx="2.3" ry="2.2"/>
+      <ellipse class="st7" cx="192.5" cy="156.1" rx="2.3" ry="2.2"/>
+      <ellipse class="st7" cx="190.6" cy="161" rx="2.3" ry="2.2"/>
+      <ellipse class="st7" cx="193.9" cy="179.9" rx="2.3" ry="2.2"/>
+      <ellipse class="st7" cx="205" cy="188.3" rx="2.3" ry="2.2"/>
+      <ellipse class="st7" cx="205.3" cy="181.4" rx="2" ry="1.9"/>
+      <ellipse class="st7" cx="211.3" cy="178.9" rx="2" ry="1.9"/>
+      <ellipse class="st7" cx="214.9" cy="173.9" rx="2.3" ry="2.2"/>
+      <ellipse class="st7" cx="226.2" cy="169.1" rx="2.3" ry="2.2"/>
+      <ellipse class="st1" cx="206.2" cy="157.2" rx="2.3" ry="2.2"/>
+      <ellipse class="st1" cx="217.4" cy="154.5" rx="2.3" ry="2.2"/>
+      <ellipse class="st1" cx="222.5" cy="150.4" rx="2.3" ry="2.2"/>
+      <ellipse class="st7" cx="232.2" cy="145.1" rx="2.7" ry="2.5"/>
+      <ellipse class="st1" cx="229.3" cy="138.2" rx="2.2" ry="2.3" transform="translate(79.8 360.3) rotate(-87.1)"/>
+      <ellipse class="st7" cx="235.9" cy="137.7" rx="2.9" ry="3.1" transform="translate(86.5 366.4) rotate(-87.1)"/>
+      <ellipse class="st7" cx="240.5" cy="144.8" rx="4.3" ry="4.7" transform="translate(83.9 377.7) rotate(-87.1)"/>
+      <ellipse class="st7" cx="232.4" cy="130.4" rx="3.3" ry="3.6" transform="translate(90.6 356) rotate(-87.1)"/>
+      <ellipse class="st7" cx="222.3" cy="174.9" rx="3" ry="2.8"/>
+      <ellipse class="st1" cx="212.3" cy="159.2" rx="3" ry="2.8"/>
+      <ellipse class="st7" cx="181.7" cy="162" rx="2.3" ry="2.2"/>
+      <ellipse class="st7" cx="182.5" cy="55.2" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="189" cy="59.4" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="210.8" cy="43.3" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="194.3" cy="49.6" rx="2.6" ry="2.4"/>
+      <ellipse class="st7" cx="187.9" cy="51.2" rx="2.6" ry="2.4"/>
+      <ellipse class="st7" cx="207.3" cy="64.7" rx="2.6" ry="2.4"/>
+      <ellipse class="st7" cx="204.1" cy="70.4" rx="2.6" ry="2.4"/>
+      <ellipse class="st7" cx="211.5" cy="71" rx="2.6" ry="2.4"/>
+      <ellipse class="st7" cx="208.1" cy="77.3" rx="2.6" ry="2.4"/>
+      <ellipse class="st7" cx="202.2" cy="77.8" rx="2.6" ry="2.4"/>
+      <ellipse class="st7" cx="182.8" cy="180.9" rx="8.2" ry="7.6"/>
+      <ellipse class="st7" cx="217.8" cy="181.9" rx="4.2" ry="3.9"/>
+      <ellipse class="st7" cx="105.6" cy="195.7" rx="4.5" ry="4.1"/>
+      <ellipse class="st7" cx="114.8" cy="190.7" rx="3.3" ry="3.1"/>
+      <ellipse class="st7" cx="122.5" cy="193.8" rx="3.3" ry="3.1"/>
+      <ellipse class="st7" cx="119.7" cy="168.9" rx="3.8" ry="3.5"/>
+      <ellipse class="st7" cx="130" cy="169.4" rx="3.8" ry="3.5"/>
+      <ellipse class="st7" cx="96.3" cy="186.1" rx="3.3" ry="3.1"/>
+      <ellipse class="st7" cx="107.5" cy="185.9" rx="3.5" ry="3.3"/>
+      <ellipse class="st7" cx="104.7" cy="171" rx="9.2" ry="8.6"/>
+      <ellipse class="st6" cx="96.1" cy="146.8" rx="8.6" ry="8"/>
+      <ellipse class="st6" cx="91.7" cy="121.1" rx="7.4" ry="6.9"/>
+      <ellipse class="st6" cx="105.9" cy="123.4" rx="5.6" ry="5.2"/>
+      <ellipse class="st7" cx="115" cy="110.2" rx="8.7" ry="8.1"/>
+      <ellipse class="st7" cx="108.7" cy="88" rx="7.2" ry="6.6"/>
+      <ellipse class="st7" cx="86.8" cy="80.3" rx="7.2" ry="6.6"/>
+      <ellipse class="st7" cx="74" cy="97.4" rx="7.2" ry="6.6"/>
+      <ellipse class="st7" cx="56.6" cy="97.8" rx="7.2" ry="6.6"/>
+      <ellipse class="st7" cx="62.2" cy="129.4" rx="7.2" ry="6.6"/>
+      <ellipse class="st7" cx="75.3" cy="158.7" rx="7.2" ry="6.6"/>
+      <ellipse class="st7" cx="140.3" cy="110.7" rx="7.2" ry="6.6"/>
+      <ellipse class="st7" cx="130" cy="143.8" rx="7.2" ry="6.6"/>
+      <ellipse class="st7" cx="135.2" cy="82.7" rx="7.2" ry="6.6"/>
+      <ellipse class="st7" cx="126.3" cy="65.2" rx="6.5" ry="6"/>
+      <ellipse class="st7" cx="107.8" cy="59.2" rx="6.5" ry="6"/>
+      <ellipse class="st7" cx="90" cy="63.2" rx="6.5" ry="6"/>
+      <ellipse class="st7" cx="101.2" cy="36.9" rx="5.7" ry="5.3"/>
+      <ellipse class="st7" cx="76.1" cy="40.8" rx="6.5" ry="6.1"/>
+      <ellipse class="st7" cx="56.3" cy="27.7" rx="6.5" ry="6.1"/>
+      <ellipse class="st7" cx="39.5" cy="18.3" rx="7.2" ry="6.7"/>
+      <ellipse class="st7" cx="37.3" cy="42" rx="7.2" ry="6.7"/>
+      <ellipse class="st7" cx="37.9" cy="61.3" rx="7.2" ry="6.7"/>
+      <ellipse class="st7" cx="66.8" cy="86.9" rx="4.3" ry="4"/>
+      <ellipse class="st7" cx="64.6" cy="108.4" rx="4.3" ry="4"/>
+      <ellipse class="st7" cx="98.1" cy="108.9" rx="4.3" ry="4"/>
+      <ellipse class="st6" cx="116.4" cy="128.4" rx="4.3" ry="4"/>
+      <ellipse class="st6" cx="107.1" cy="134.2" rx="4.3" ry="4"/>
+      <ellipse class="st6" cx="82.4" cy="145.1" rx="4.3" ry="4"/>
+      <ellipse class="st7" cx="88.2" cy="166.7" rx="4.3" ry="4"/>
+      <ellipse class="st6" cx="115" cy="146.8" rx="4.3" ry="4"/>
+      <ellipse class="st6" cx="108.3" cy="153.1" rx="4.3" ry="4"/>
+      <ellipse class="st7" cx="121.3" cy="155.9" rx="4.3" ry="4"/>
+      <ellipse class="st7" cx="131.4" cy="157.1" rx="4.3" ry="4"/>
+      <ellipse class="st7" cx="126.9" cy="129.8" rx="4.3" ry="4"/>
+      <ellipse class="st7" cx="128.9" cy="93" rx="4.3" ry="4"/>
+      <ellipse class="st7" cx="141.7" cy="65.2" rx="3.3" ry="3.1"/>
+      <ellipse class="st7" cx="135.9" cy="60.3" rx="2.8" ry="2.6"/>
+      <ellipse class="st7" cx="131.2" cy="54.6" rx="2.8" ry="2.6"/>
+      <ellipse class="st7" cx="125.3" cy="49.8" rx="2.8" ry="2.6"/>
+      <ellipse class="st7" cx="119.4" cy="45.3" rx="2.8" ry="2.6"/>
+      <ellipse class="st7" cx="114.6" cy="41.9" rx="2.4" ry="2.3"/>
+      <ellipse class="st7" cx="109.5" cy="39.3" rx="2.4" ry="2.3"/>
+      <ellipse class="st7" cx="95.5" cy="29.8" rx="2.4" ry="2.3"/>
+      <ellipse class="st7" cx="91.2" cy="27.2" rx="2.4" ry="2.3"/>
+      <ellipse class="st7" cx="73.9" cy="20.2" rx="2.4" ry="2.3"/>
+      <ellipse class="st7" cx="64.9" cy="18.6" rx="2.8" ry="2.6"/>
+      <ellipse class="st7" cx="56.6" cy="15.3" rx="2.8" ry="2.6"/>
+      <ellipse class="st7" cx="50.7" cy="18.3" rx="2.8" ry="2.6"/>
+      <ellipse class="st7" cx="27.1" cy="14.4" rx="3.3" ry="3"/>
+      <ellipse class="st7" cx="28.5" cy="23.7" rx="3.3" ry="3"/>
+      <ellipse class="st7" cx="43.8" cy="29.5" rx="3.6" ry="3.3"/>
+      <ellipse class="st7" cx="35.7" cy="29.4" rx="3.6" ry="3.3"/>
+      <ellipse class="st7" cx="20.5" cy="39.7" rx="3.6" ry="3.3"/>
+      <ellipse class="st7" cx="24.1" cy="30.8" rx="3.3" ry="3"/>
+      <ellipse class="st7" cx="18.6" cy="21.3" rx="4.7" ry="4.4"/>
+      <ellipse class="st7" cx="63.1" cy="39.6" rx="3.5" ry="3.3"/>
+      <ellipse class="st7" cx="68.4" cy="25.7" rx="3.5" ry="3.3"/>
+      <ellipse class="st7" cx="76.2" cy="27.7" rx="2.9" ry="2.7"/>
+      <ellipse class="st7" cx="84.1" cy="26.6" rx="3.8" ry="3.5"/>
+      <ellipse class="st7" cx="90.8" cy="33.9" rx="2.9" ry="2.7"/>
+      <ellipse class="st7" cx="90.4" cy="40.8" rx="2.9" ry="2.7"/>
+      <ellipse class="st7" cx="99.4" cy="50" rx="3.5" ry="3.2"/>
+      <ellipse class="st7" cx="90.8" cy="47.2" rx="2.7" ry="2.5"/>
+      <ellipse class="st7" cx="91.8" cy="52.9" rx="2.3" ry="2.1"/>
+      <ellipse class="st7" cx="96.8" cy="56.2" rx="2.3" ry="2.1"/>
+      <ellipse class="st7" cx="108.7" cy="44.7" rx="2.6" ry="2.4"/>
+      <ellipse class="st7" cx="85.8" cy="44.9" rx="2" ry="1.9"/>
+      <ellipse class="st7" cx="86.2" cy="37.8" rx="1.6" ry="1.5"/>
+      <ellipse class="st7" cx="84.6" cy="33.2" rx="1.6" ry="1.5"/>
+      <ellipse class="st7" cx="67" cy="32.7" rx="1.6" ry="1.5"/>
+      <ellipse class="st7" cx="56.1" cy="39.1" rx="1.6" ry="1.5"/>
+      <ellipse class="st7" cx="47.7" cy="35.9" rx="2.9" ry="2.7"/>
+      <ellipse class="st7" cx="24.3" cy="44.6" rx="1.6" ry="1.5"/>
+      <ellipse class="st7" cx="27.9" cy="37.4" rx="1.6" ry="1.5"/>
+      <ellipse class="st7" cx="15.5" cy="30.1" rx="1.6" ry="1.5"/>
+      <ellipse class="st7" cx="28.2" cy="52.1" rx="2.2" ry="2.1"/>
+      <ellipse class="st7" cx="41.2" cy="71.2" rx="2.2" ry="2.1"/>
+      <ellipse class="st7" cx="53.6" cy="81.9" rx="2.2" ry="2.1"/>
+      <ellipse class="st7" cx="108.5" cy="68.7" rx="2.2" ry="2.1"/>
+      <ellipse class="st7" cx="108.6" cy="73.5" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="75.1" cy="87.6" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="80.7" cy="89.8" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="58.2" cy="86.9" rx="2.7" ry="2.5"/>
+      <ellipse class="st7" cx="48.5" cy="88.7" rx="3.4" ry="3.1"/>
+      <ellipse class="st7" cx="46.2" cy="79.8" rx="3.4" ry="3.1"/>
+      <ellipse class="st7" cx="110.6" cy="78.4" rx="1.9" ry="1.8"/>
+      <ellipse class="st0" cx="82.8" cy="69.6" rx="1.9" ry="1.8"/>
+      <ellipse class="st0" cx="74.7" cy="74.1" rx="2.6" ry="2.4"/>
+      <ellipse class="st0" cx="73.2" cy="81.4" rx="2.6" ry="2.5"/>
+      <ellipse class="st0" cx="67.2" cy="74.5" rx="1.9" ry="1.8"/>
+      <ellipse class="st0" cx="63.1" cy="63.8" rx="7.4" ry="6.9"/>
+      <ellipse class="st0" cx="60.7" cy="79.6" rx="3.3" ry="3.1"/>
+      <ellipse class="st0" cx="53.8" cy="73.5" rx="3.4" ry="3.2"/>
+      <ellipse class="st0" cx="46.2" cy="68.3" rx="1.9" ry="1.8"/>
+      <ellipse class="st0" cx="51.1" cy="63.3" rx="1.9" ry="1.8"/>
+      <ellipse class="st0" cx="48.4" cy="58.8" rx="1.9" ry="1.8"/>
+      <ellipse class="st0" cx="43.2" cy="51.8" rx="1.9" ry="1.8"/>
+      <ellipse class="st0" cx="50.3" cy="45.7" rx="4.4" ry="4.1"/>
+      <ellipse class="st0" cx="55.2" cy="53.4" rx="2.7" ry="2.5"/>
+      <ellipse class="st0" cx="58.2" cy="45" rx="1.9" ry="1.8"/>
+      <ellipse class="st0" cx="63.1" cy="49.9" rx="3.1" ry="2.9"/>
+      <ellipse class="st0" cx="67.1" cy="44.3" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="70.6" cy="54" rx="2.6" ry="2.4"/>
+      <ellipse class="st0" cx="77.9" cy="56.7" rx="3.5" ry="3.3"/>
+      <ellipse class="st7" cx="105.6" cy="49.7" rx="1.9" ry="1.8"/>
+      <ellipse class="st0" cx="79.5" cy="49.9" rx="1.9" ry="1.8"/>
+      <ellipse class="st0" cx="84.5" cy="51.6" rx="2.8" ry="2.6"/>
+      <ellipse class="st0" cx="76.4" cy="65.4" rx="3.2" ry="3"/>
+      <ellipse class="st7" cx="86.2" cy="93.6" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="104" cy="97" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="113.4" cy="97.9" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="108" cy="100.2" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="117.1" cy="96.1" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="135.7" cy="65.9" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="134.8" cy="71.3" rx="2.8" ry="2.6"/>
+      <ellipse class="st7" cx="123.1" cy="75.9" rx="2.8" ry="2.6"/>
+      <ellipse class="st7" cx="116.2" cy="79.6" rx="2.8" ry="2.6"/>
+      <ellipse class="st7" cx="94.2" cy="90.8" rx="3.4" ry="3.1"/>
+      <ellipse class="st7" cx="98" cy="84.4" rx="3.1" ry="2.9"/>
+      <ellipse class="st7" cx="98.6" cy="99.8" rx="3.1" ry="2.9"/>
+      <ellipse class="st7" cx="91.1" cy="103.5" rx="3.5" ry="3.3"/>
+      <ellipse class="st7" cx="129.1" cy="116.8" rx="3.5" ry="3.3"/>
+      <ellipse class="st7" cx="134.2" cy="99.8" rx="3.1" ry="2.9"/>
+      <ellipse class="st7" cx="138.1" cy="94" rx="3.1" ry="2.9"/>
+      <ellipse class="st7" cx="143.9" cy="89" rx="3" ry="2.8"/>
+      <ellipse class="st7" cx="145" cy="82" rx="2.2" ry="2"/>
+      <ellipse class="st7" cx="145.1" cy="95.9" rx="2.6" ry="2.4"/>
+      <ellipse class="st7" cx="145.7" cy="102.4" rx="2.1" ry="1.9"/>
+      <ellipse class="st7" cx="140.7" cy="100.5" rx="2.1" ry="1.9"/>
+      <ellipse class="st7" cx="127" cy="103.5" rx="2.7" ry="2.5"/>
+      <ellipse class="st7" cx="122" cy="99.2" rx="2.7" ry="2.5"/>
+      <ellipse class="st7" cx="140.4" cy="126.6" rx="5.4" ry="5"/>
+      <ellipse class="st7" cx="139.3" cy="136.3" rx="3.2" ry="3"/>
+      <ellipse class="st7" cx="146.1" cy="119.3" rx="2.5" ry="2.3"/>
+      <ellipse class="st7" cx="131.7" cy="123.2" rx="2.5" ry="2.3"/>
+      <ellipse class="st7" cx="122.9" cy="121.1" rx="2.5" ry="2.3"/>
+      <ellipse class="st7" cx="134.2" cy="132.5" rx="2.5" ry="2.3"/>
+      <ellipse class="st6" cx="120.6" cy="135.6" rx="2.5" ry="2.3"/>
+      <ellipse class="st6" cx="115.1" cy="136.8" rx="2.5" ry="2.3"/>
+      <ellipse class="st6" cx="119.6" cy="141.7" rx="2.3" ry="2.2"/>
+      <ellipse class="st6" cx="85.7" cy="137.7" rx="2.3" ry="2.2"/>
+      <ellipse class="st6" cx="91.6" cy="136" rx="1.9" ry="1.8"/>
+      <ellipse class="st6" cx="81.3" cy="133.8" rx="1.9" ry="1.8"/>
+      <ellipse class="st6" cx="89.1" cy="130.8" rx="2.3" ry="2.1"/>
+      <ellipse class="st6" cx="97.6" cy="131.6" rx="3.5" ry="3.3"/>
+      <ellipse class="st7" cx="78.5" cy="118.1" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="88" cy="110.2" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="103.3" cy="114.4" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="103.7" cy="103.5" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="100" cy="93" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="91" cy="96.1" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="85.1" cy="98.9" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="83.1" cy="105.6" rx="2.6" ry="2.4"/>
+      <ellipse class="st7" cx="81.1" cy="113" rx="2.6" ry="2.5"/>
+      <ellipse class="st7" cx="76.2" cy="108.4" rx="3.1" ry="2.9"/>
+      <ellipse class="st7" cx="75.9" cy="123.7" rx="3" ry="2.8"/>
+      <ellipse class="st7" cx="71.8" cy="116.4" rx="2.9" ry="2.7"/>
+      <ellipse class="st7" cx="62.2" cy="118.4" rx="2.7" ry="2.5"/>
+      <ellipse class="st6" cx="83.6" cy="128.4" rx="2.4" ry="2.2"/>
+      <ellipse class="st7" cx="130" cy="108.4" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="120.6" cy="92" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="125.6" cy="85.9" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="118.7" cy="85.8" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="122.5" cy="82" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="126.7" cy="80.9" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="128.9" cy="75.1" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="143.5" cy="76.5" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="140.7" cy="72.2" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="119" cy="71.5" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="113.9" cy="74.1" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="114.6" cy="66.9" rx="1.9" ry="1.8"/>
+      <ellipse class="st6" cx="108.6" cy="142.6" rx="2.3" ry="2.2"/>
+      <ellipse class="st7" cx="113" cy="159.2" rx="2.3" ry="2.2"/>
+      <ellipse class="st7" cx="116.1" cy="163.2" rx="2.3" ry="2.2"/>
+      <ellipse class="st7" cx="112.8" cy="181.1" rx="2.3" ry="2.2"/>
+      <ellipse class="st7" cx="101.7" cy="189.5" rx="2.3" ry="2.2"/>
+      <ellipse class="st7" cx="101.4" cy="182.6" rx="2" ry="1.9"/>
+      <ellipse class="st7" cx="95.4" cy="180" rx="2" ry="1.9"/>
+      <ellipse class="st7" cx="91.9" cy="175.1" rx="2.3" ry="2.2"/>
+      <ellipse class="st7" cx="80.5" cy="170.2" rx="2.3" ry="2.2"/>
+      <ellipse class="st6" cx="101.4" cy="157.8" rx="2.3" ry="2.2"/>
+      <ellipse class="st6" cx="89.3" cy="157.3" rx="2.3" ry="2.2"/>
+      <ellipse class="st6" cx="85.1" cy="151.5" rx="2.3" ry="2.2"/>
+      <ellipse class="st7" cx="74.5" cy="146.2" rx="2.7" ry="2.5"/>
+      <ellipse class="st6" cx="77.4" cy="139.4" rx="2.3" ry="2.2" transform="translate(-6.9 4) rotate(-2.9)"/>
+      <ellipse class="st7" cx="70.9" cy="138.9" rx="3.1" ry="2.9" transform="translate(-6.8 3.7) rotate(-2.9)"/>
+      <ellipse class="st7" cx="66.2" cy="145.9" rx="4.7" ry="4.3" transform="translate(-7.2 3.5) rotate(-2.9)"/>
+      <ellipse class="st7" cx="74.3" cy="131.6" rx="3.6" ry="3.3" transform="translate(-6.5 3.9) rotate(-2.9)"/>
+      <ellipse class="st7" cx="84.4" cy="176.1" rx="3" ry="2.8"/>
+      <ellipse class="st6" cx="94.4" cy="160.4" rx="3" ry="2.8"/>
+      <ellipse class="st7" cx="125" cy="163.2" rx="2.3" ry="2.2"/>
+      <ellipse class="st7" cx="124.2" cy="56.4" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="117.7" cy="60.6" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="96" cy="44.5" rx="1.9" ry="1.8"/>
+      <ellipse class="st7" cx="112.5" cy="50.8" rx="2.6" ry="2.4"/>
+      <ellipse class="st7" cx="118.8" cy="52.4" rx="2.6" ry="2.4"/>
+      <ellipse class="st7" cx="99.4" cy="65.9" rx="2.6" ry="2.4"/>
+      <ellipse class="st7" cx="102.6" cy="71.6" rx="2.6" ry="2.4"/>
+      <ellipse class="st7" cx="95.3" cy="72.2" rx="2.6" ry="2.4"/>
+      <ellipse class="st7" cx="98.6" cy="78.5" rx="2.6" ry="2.4"/>
+      <ellipse class="st7" cx="104.5" cy="78.9" rx="2.6" ry="2.4"/>
+      <ellipse class="st7" cx="124" cy="182.1" rx="8.2" ry="7.6"/>
+      <ellipse class="st7" cx="88.9" cy="183.1" rx="4.2" ry="3.9"/>
+    </g>
+  </g>
+</svg>

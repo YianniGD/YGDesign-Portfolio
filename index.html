@@ -11,10 +11,10 @@
             theme: {
                 extend: {
                     colors: {
-                        'primary': '#0f172a', // slate-900
+                        'primary': '#16181d', // slate-900
                         'secondary': '#1e293b', // slate-800
-                        'accent': '#38bdf8', // sky-400
-                        'accent-hover': '#0ea5e9', // sky-500
+                        'accent': '#7d8ca1', // sky-400
+                        'accent-hover': '#454545',
                         'text-primary': '#f1f5f9', // slate-100
                         'text-secondary': '#94a3b8', // slate-400
                     },
@@ -62,8 +62,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #ffffff;
-            border: 4px solid #e5e7eb;
+            background-color: #d0d0d0;
+            border: 4px solid #979898;
             perspective: 1000px;
         }
 
@@ -115,6 +115,9 @@
 <body class="bg-slate-50 dark:bg-primary text-slate-800 dark:text-text-primary font-sans transition-colors duration-300 overflow-y-scroll">
     <div id="root"></div>
     <script type="module" src="./index.js"></script>
-<script type="module" src="/index.tsx"></script>
+    <script type="module" src="/index.tsx"></script>
+
+    <!-- The switcher script is loaded here, but initialized dynamically from index.js -->
+    <script src="components/switcher.js"></script>
 </body>
 </html>

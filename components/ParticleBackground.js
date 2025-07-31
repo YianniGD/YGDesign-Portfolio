@@ -40,7 +40,7 @@ export default function createParticleBackground() {
     
     let animationFrameId;
     let particles = [];
-    const particleCount = 100;
+    const particleCount = 600;
 
     const reinitialize = () => {
         if (animationFrameId) {

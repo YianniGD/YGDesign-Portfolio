@@ -1,5 +1,3 @@
-
-
 /**
  * @typedef {object} Project
  * @property {string} id
@@ -28,7 +26,7 @@
 export const PROFILE_INFO = {
     name: "YGDesign",
     title: "Graphic designer and Frontend Engineer",
-    bio: "I build beautiful, performant, and accessible web experiences with a passion for clean code and user-centric design.",
+    bio: "",
     avatarUrl: "https://storage.googleapis.com/ygportfolio/thumbnail.webp",
     email: "yianni.galiatsatos@email.com",
     linkedin: "https://www.linkedin.com/in/yiannigaliatsatos/",
@@ -85,12 +83,11 @@ export const PROJECTS = [
             "https://storage.googleapis.com/ygportfolio/kell/K2",
             "https://storage.googleapis.com/ygportfolio/kell/K3",
             "https://storage.googleapis.com/ygportfolio/kell/K4",
-            "https://storage.googleapis.com/ygportfolio/kell/K5",
-            "https://storage.googleapis.com/ygportfolio/kell/K6",
             "https://storage.googleapis.com/ygportfolio/kell/K7",
             "https://storage.googleapis.com/ygportfolio/kell/K8",
             "https://storage.googleapis.com/ygportfolio/kell/K9"
         ],
+        embedUrl: "/switcher.html",
     },
     {
         id: "youth-society-logo",

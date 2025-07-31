@@ -66,6 +66,22 @@ function App() {
         mainContentArea.innerHTML = ''; // Clear previous content
         if (selectedProject) {
             mainContentArea.appendChild(ProjectDetail(selectedProject, handleCloseProject));
+
+            // If the selected project is Kellarden Farms, add the switcher
+            if (selectedProject.id === 'kellarden-farms-identity') {
+                const switcherSection = document.createElement('section');
+                switcherSection.className = 'flex w-full justify-center px-4 py-12';
+
+                const switcherContainer = document.createElement('div');
+                switcherContainer.id = 'kellarden-switcher-container';
+
+                switcherSection.appendChild(switcherContainer);
+                mainContentArea.appendChild(switcherSection);
+
+                // The switcher.js script is loaded via index.html, so the function is globally available.
+                initSvgLogoSwitcher('kellarden-switcher-container');
+            }
+
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
     };

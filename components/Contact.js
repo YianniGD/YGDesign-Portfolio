@@ -12,8 +12,11 @@ export default function Contact() {
     text.className = "text-center text-lg text-slate-600 dark:text-text-secondary max-w-2xl mb-8";
     text.textContent = "I'm currently open to new opportunities and collaborations. Feel free to reach out if you have a project in mind, want to connect, or just want to say hi!";
 
+    const ctaWrapper = document.createElement('div');
+    ctaWrapper.className = "flex flex-col items-center gap-y-12";
+
     const calendarButtonContainer = document.createElement('div');
-    calendarButtonContainer.className = "mb-8 transform hover:scale-105 transition-transform duration-300 h-[40px]";
+    calendarButtonContainer.className = "transform hover:scale-105 transition-transform duration-300 h-[40px]";
     calendarButtonContainer.setAttribute('aria-live', 'polite');
 
     const socialLinks = document.createElement('div');
@@ -58,6 +61,7 @@ export default function Contact() {
     };
     checkCalendar();
 
-    element.append(text, calendarButtonContainer, socialLinks);
+    ctaWrapper.append(calendarButtonContainer, socialLinks);
+    element.append(text, ctaWrapper);
     return element;
 }

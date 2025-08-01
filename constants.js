@@ -1,18 +1,18 @@
 /**
+
  * @typedef {object} Project
  * @property {string} id
  * @property {string} title
  * @property {string} description
  * @property {string} longDescription - HTML string for the detailed description.
  * @property {string[]} tags
- * @property {string[]} imageUrls
- * @property {string} [liveUrl]
+ * @property {Image[]} imageUrls
  * @property {string} [githubUrl]
  */
 
 /**
  * @typedef {object} Skill
- * @property {string} name
+ * @property {string[]} imageUrls
  * @property {string} icon - HTML string for the icon.
  */
 
@@ -64,7 +64,6 @@ export const PROJECTS = [
             "Public/images/D/D-15.webp",
             "Public/images/D/D-11.webp"
         ],
-        liveUrl: "#",
         githubUrl: "#",
     },
     {

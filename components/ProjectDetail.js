@@ -37,8 +37,8 @@ export default function ProjectDetail(project, onBack) {
             <div class="grid grid-cols-1 lg:grid-cols-5 gap-8 lg:gap-12">
                 <!-- IMAGE GALLERY -->
                 <div class="lg:col-span-3">
-                    <div class="rounded-lg overflow-hidden shadow-lg mb-4 aspect-video bg-slate-100 dark:bg-primary">
-                        <img id="main-gallery-image" src="${mainImageSrc}" alt="${project.title}" class="w-full h-full object-cover animate-pop-in" />
+                    <div class="rounded-lg overflow-hidden shadow-lg mb-4 bg-slate-100 dark:bg-primary aspect-[4/3] flex items-center justify-center">
+                        <img id="main-gallery-image" src="${mainImageSrc}" alt="${project.title}" class="w-full h-full object-contain animate-pop-in cursor-zoom-in" />
                     </div>
                     ${mainGalleryImages.length > 1 ? `
                         <div id="thumbnail-container" class="flex flex-wrap gap-2">
@@ -110,6 +110,49 @@ export default function ProjectDetail(project, onBack) {
         };
         mainImageElement.addEventListener('animationend', onPopOutEnd, { once: true });
     };
+
+    const openPhotoSwipe = async (index) => {
+        // This assumes PhotoSwipe is loaded globally from a <script> tag.
+        if (!window.PhotoSwipe || !window.PhotoSwipeUI_Default) {
+            console.error('PhotoSwipe library not loaded. Please include it in your HTML.');
+            return;
+        }
+
+        const pswpElement = document.querySelector('.pswp');
+        if (!pswpElement) {
+            console.error('PhotoSwipe root element (.pswp) not found in the DOM.');
+            return;
+        }
+
+        // Note: Dynamically loading images to get their dimensions can be slow.
+        // For better performance, consider storing image dimensions alongside their URLs in `constants.js`.
+        const items = await Promise.all(mainGalleryImages.map(async (url) => {
+            return new Promise((resolve) => {
+                const img = new Image();
+                img.onload = () => resolve({ src: url, w: img.naturalWidth, h: img.naturalHeight, title: project.title });
+                img.onerror = () => resolve({ src: url, w: 1200, h: 800, title: `${project.title} (Image failed to load)` }); // Fallback
+                img.src = url;
+            });
+        }));
+
+        const options = {
+            index: index,
+            bgOpacity: 0.9,
+            showHideOpacity: true,
+            history: false,
+            shareEl: false,
+            fullscreenEl: true,
+            zoomEl: true,
+        };
+
+        const gallery = new window.PhotoSwipe(pswpElement, window.PhotoSwipeUI_Default, items, options);
+        gallery.init();
+    };
+
+    mainImageElement.addEventListener('click', () => {
+        const currentIndex = mainGalleryImages.indexOf(mainImageSrc);
+        openPhotoSwipe(currentIndex >= 0 ? currentIndex : 0);
+    });
 
     element.querySelector('#back-button').addEventListener('click', onBack);
     if (thumbnailContainer) {

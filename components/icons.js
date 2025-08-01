@@ -19,23 +19,23 @@ export const FigmaIcon = ({ className = '' }) => `
 `;
 
 export const GitHubIcon = ({ className = '' }) => `
-    <img src="/images/icons/github.svg" alt="Github Icon" class="${className}" />
+    <img src="Public/images/icons/github.svg" alt="Github Icon" class="${className}" />
 `;
 
 export const LinkedInIcon = ({ className = '' }) => `
-    <img src="/images/icons/linkedin.svg" alt="LinkedIn Icon" class="${className}" />
+    <img src="Public/images/icons/linkedin.svg" alt="LinkedIn Icon" class="${className}" />
 `;
 
 export const EmailIcon = ({ className = '' }) => `
-    <img src="/images/icons/mail.svg" alt="Email Icon" class="${className}" />
+    <img src="Public/images/icons/mail.svg" alt="Email Icon" class="${className}" />
 `;
 
 export const DribbbleIcon = ({ className = '' }) => `
-    <img src="/images/icons/dribbble.svg" alt="Dribbble Icon" class="${className}" />
+    <img src="Public/images/icons/dribbble.svg" alt="Dribbble Icon" class="${className}" />
 `;
 
 export const BlueskyIcon = ({ className = '' }) => `
-    <img src="/images/icons/bluesky.svg" alt="Bluesky Icon" class="${className}" />
+    <img src="Public/images/icons/bluesky.svg" alt="Bluesky Icon" class="${className}" />
 `;
 
 export const MoonIcon = ({ className = '' }) => `

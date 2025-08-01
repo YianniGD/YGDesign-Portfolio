@@ -45,8 +45,8 @@ export default function Contact() {
             calendarButtonContainer.innerHTML = ''; // Clear previous button before loading a new one
             try {
                 window.calendar.schedulingButton.load({
-                    url: 'https://calendar.google.com/calendar/appointments/AcZssZ12AveFFHhGNxAGRRoTFkeN8qhegPgiGv6eWd4=?gv=true',
-                    color: '#F09300',
+                    url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ3tekT7UhEMJNt5XhJFGkF_opjFCF-8WHVUyQnR8i82l7gLf_kCH3ZevAWtp1_vhdqQUsMV9YR5?gv=true',
+                    color: '#039BE5',
                     label: 'Book an appointment',
                     target: calendarButtonContainer,
                 });

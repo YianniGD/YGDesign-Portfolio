@@ -19,11 +19,11 @@ export const FigmaIcon = ({ className = '' }) => `
 `;
 
 export const GitHubIcon = ({ className = '' }) => `
-    <img src="https://storage.googleapis.com/ygportfolio/Icons/github.svg" alt="Github Icon" class="${className}" />
+    <img src="/images/icons/github.svg" alt="Github Icon" class="${className}" />
 `;
 
 export const LinkedInIcon = ({ className = '' }) => `
-    <img src="https://storage.googleapis.com/ygportfolio/Icons/linkedin.svg" alt="LinkedIn Icon" class="${className}" />
+    <img src="/images/icons/linkedin.svg" alt="LinkedIn Icon" class="${className}" />
 `;
 
 export const EmailIcon = ({ className = '' }) => `
@@ -31,11 +31,11 @@ export const EmailIcon = ({ className = '' }) => `
 `;
 
 export const DribbbleIcon = ({ className = '' }) => `
-    <img src="https://storage.googleapis.com/ygportfolio/Icons/dribbble.svg" alt="Dribbble Icon" class="${className}" />
+    <img src="/images/icons/dribbble.svg" alt="Dribbble Icon" class="${className}" />
 `;
 
 export const BlueskyIcon = ({ className = '' }) => `
-    <img src="https://storage.googleapis.com/ygportfolio/Icons/bluesky.svg" alt="Bluesky Icon" class="${className}" />
+    <img src="/images/icons/bluesky.svg" alt="Bluesky Icon" class="${className}" />
 `;
 
 export const MoonIcon = ({ className = '' }) => `

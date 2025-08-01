@@ -193,9 +193,9 @@ export const SKILLS = [
             { name: "HTML5", icon: '<img src="/images/icons/html5.svg" alt="HTML5 Icon" class="w-8 h-8">' },
             { name: "JavaScript", icon: '<img src="/images/icons/js.svg" alt="JavaScript Icon" class="w-8 h-8">' },
             { name: "React", icon: '<img src="/images/icons/react.svg" alt="React Icon" class="w-8 h-8">' },
-            { name: "Tailwind CSS", icon: '<img src="https://storage.googleapis.com/ygportfolio/Icons/tailwind.svg" alt="Tailwind CSS Icon" class="w-8 h-8">' },
+            { name: "Tailwind CSS", icon: '<img src="Public/images/icons/tailwind.svg" alt="Tailwind CSS Icon" class="w-8 h-8">' },
             { name: "Node.js", icon: '<img src="/images/icons/node.svg" alt="Node.js Icon" class="w-8 h-8">' },
-            { name: "Python", icon: '<img src="https://storage.googleapis.com/ygportfolio/Icons/Python.svg" alt="Python Icon" class="w-8 h-8">' },
+            { name: "Python", icon: '<img src="Public/images/icons/Python.svg" alt="Python Icon" class="w-8 h-8">' },
         ],
     },
     {
@@ -206,7 +206,7 @@ export const SKILLS = [
             { name: "Autodesk", icon: '<img src="/images/icons/auto.svg" alt="Autodesk Icon" class="w-8 h-8">' },
             { name: "Figma", icon: '<img src="/images/icons/figma.svg" alt="Figma Icon" class="w-8 h-8">' },
             { name: "Procreate", icon: '<img src="/images/icons/procreate.svg" alt="Procreate Icon" class="w-8 h-8">' },
-            { name: "Blender", icon: '<img src="https://storage.googleapis.com/ygportfolio/Icons/Blender_logo.svg" alt="Blender Icon" class="w-8 h-8">' },
+            { name: "Blender", icon: '<img src="/images/icons/Blender.svg" alt="Blender Icon" class="w-8 h-8">' },
         ],
     },
     {

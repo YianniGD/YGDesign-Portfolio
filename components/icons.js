@@ -27,7 +27,7 @@ export const LinkedInIcon = ({ className = '' }) => `
 `;
 
 export const EmailIcon = ({ className = '' }) => `
-    <img src="https://storage.googleapis.com/ygportfolio/Icons/gmail.svg" alt="Gmail Icon" class="${className}" />
+    <img src="/images/icons/mail.svg" alt="Email Icon" class="${className}" />
 `;
 
 export const DribbbleIcon = ({ className = '' }) => `

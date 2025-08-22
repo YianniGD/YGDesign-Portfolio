@@ -43,7 +43,7 @@ export const PROJECTS = [
     {
         id: "echo-wellness-app",
         title: "Echo: Wellness Application",
-        description: "A UI/UX concept for a wellness application focused on mental clarity, mindfulness, and achieving a state of flow.",
+        description: "A UI/UX concept for a wellness application focused on mental clarity, mindfulness, and achieving a state of flow. I created this mosstly as a tool for myself, I couldn't find one tool that offered everything that I wanted so I set out to build my own. The application is still in active development, but there is a live version that is available to anyone.",
         longDescription: `
             <p class="mb-4">Echo is a conceptual UI/UX project for a wellness application designed to help users find mental clarity and focus. The app centers around minimalist design and intuitive interactions to create a serene user experience.</p>
             <p class="mb-4">The core feature is a guided focus timer, complemented by ambient soundscapes and mindfulness exercises. The goal is to provide a tool that seamlessly integrates into a user's daily routine, promoting well-being without being intrusive.</p>

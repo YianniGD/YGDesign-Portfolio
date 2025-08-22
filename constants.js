@@ -6,8 +6,11 @@
  * @property {string} description
  * @property {string} longDescription - HTML string for the detailed description.
  * @property {string[]} tags
- * @property {Image[]} imageUrls
+ * @property {string[]} imageUrls
  * @property {string} [githubUrl]
+ * @property {string} [liveUrl]
+ * @property {string} [liveUrlIcon]
+ * @property {string} [embedUrl]
  */
 
 /**
@@ -37,6 +40,26 @@ export const PROFILE_INFO = {
 
 /** @type {Project[]} */
 export const PROJECTS = [
+    {
+        id: "echo-wellness-app",
+        title: "Echo: Wellness Application",
+        description: "A UI/UX concept for a wellness application focused on mental clarity, mindfulness, and achieving a state of flow.",
+        longDescription: `
+            <p class="mb-4">Echo is a conceptual UI/UX project for a wellness application designed to help users find mental clarity and focus. The app centers around minimalist design and intuitive interactions to create a serene user experience.</p>
+            <p class="mb-4">The core feature is a guided focus timer, complemented by ambient soundscapes and mindfulness exercises. The goal is to provide a tool that seamlessly integrates into a user's daily routine, promoting well-being without being intrusive.</p>
+            <ul class="list-disc list-inside mb-4 space-y-2">
+                <li>Clean and minimalist user interface.</li>
+                <li>Focus timer with customizable ambient sounds.</li>
+                <li>Mindfulness and breathing exercises.</li>
+                <li>Progress tracking for wellness goals.</li>
+            </ul>`,
+        tags: ["UI/UX Design", "Mobile App", "Wellness", "Figma", "Conceptual"],
+        imageUrls: [
+            "Public/images/E/echosplash.webp"
+        ],
+        liveUrl: "https://echo-kappa-gilt.vercel.app/",
+        liveUrlIcon: "Public/images/E/icon-192x192.png"
+    },
     {
         id: "durga-tea-company",
         title: "Durga Tea Company",

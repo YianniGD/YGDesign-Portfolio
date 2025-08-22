@@ -56,10 +56,10 @@ function initSvgLogoSwitcher(containerId) {
     }
 
     // --- Theme Management (Simplified) ---
-    let currentTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    let currentTheme = 'light'; // Always light mode
 
     function applyTheme(theme) {
-        document.body.classList.toggle('dark', theme === 'dark');
+        // document.body.classList.toggle('dark', theme === 'dark'); // Removed theme toggling
         localStorage.setItem('theme', theme);
         currentTheme = theme;
         updateUI(); // Re-render UI based on new theme
@@ -133,8 +133,8 @@ function initSvgLogoSwitcher(containerId) {
           <polygon fill="currentColor" points="88.23 46.14 90.08 46.14 90.08 50.74 88.23 50.74 88.23 51.66 92.84 51.66 92.84 50.74 90.99 50.74 90.99 48.9 95.6 48.9 95.6 47.98 90.99 47.98 90.99 46.14 96.52 46.14 96.52 47.06 97.44 47.06 97.44 45.22 88.23 45.22 88.23 46.14"/>
           <path fill="currentColor" d="M115.49,48.9l1.54-2.75,1.53,2.75h-3.07ZM118.01,46.14h1.81v-.92h-5.53v.92h1.76l-2.68,4.6h-1.84v.92h4.61v-.92h-1.67l.52-.91h4.1l.51.91h-1.62v.92h4.61v-.92h-1.89l-2.68-4.6Z"/>
           <path fill="currentColor" d="M145.48,48.9h-3.74v-2.76h3.74c.22,0,.43.04.62.11s.36.17.5.29c.14.12.25.27.33.44.08.17.12.35.12.54s-.04.37-.12.54c-.08.17-.19.31-.33.43-.14.12-.31.22-.5.3-.19.07-.4.11-.62.11M146.85,50.62c-.2-.08-.38-.18-.53-.32l-.5-.5c.32-.04.61-.12.88-.25.27-.13.51-.3.71-.5s.36-.44.47-.7c.12-.26.17-.54.17-.83,0-.32-.07-.62-.2-.9-.13-.28-.31-.53-.54-.73-.23-.21-.5-.37-.8-.49-.31-.12-.64-.18-.99-.18h-6.55v.92h1.85v4.6h-1.85v.92h4.61v-.92h-1.85v-.91h2.79l1.13,1.13c.23.22.5.39.81.51.31.12.64.19.99.19h.97v-.92h-.95c-.23,0-.45-.04-.65-.11"/>
-          <polygon fill="currentColor" points="170.89 49.94 168.17 45.22 164.85 45.22 164.85 46.14 166.7 46.14 166.7 50.74 164.85 50.74 164.85 51.66 169 51.66 169 50.74 167.61 50.74 167.61 46.12 170.82 51.66 170.96 51.66 174.16 46.12 174.16 50.74 172.78 50.74 172.78 51.66 176.92 51.66 176.92 50.74 175.09 50.74 175.09 46.14 176.92 46.14 176.92 45.22 173.62 45.22 170.89 49.94"/>
-          <path fill="currentColor" d="M200.23,48.5c-.24-.13-.49-.21-.75-.27-.25-.05-.46-.09-.62-.1l-3-.29c-.42-.03-.75-.13-.99-.29-.24-.15-.36-.37-.36-.64,0-.13.05-.26.15-.39.1-.13.26-.24.48-.33.22-.1.5-.17.85-.23.35-.06.77-.09,1.26-.09.59,0,1.12.05,1.6.14.48.1.86.22,1.14.37v.67h.91v-1.84h-.91v.22c-.38-.13-.8-.24-1.27-.31-.46-.07-.95-.11-1.47-.11-.46,0-.91.03-1.36.09-.45.06-.85.16-1.21.31-.35.15-.64.34-.87.59-.22.25-.33.56-.33.94s.09.67.26.9c.18.23.39.41.63.53.24.13.49.21.74.27.25.05.46.09.62.11l3.01.29c.42.04.75.13.99.29.24.16.36.37.36.64,0,.14-.06.27-.17.39-.11.13-.28.24-.51.33s-.53.17-.88.23c-.36.06-.78.09-1.27.09-.64,0-1.22-.05-1.75-.15-.53-.1-.94-.22-1.24-.38v-.66h-.92v1.84h.92v-.13c.41.14.87.25,1.38.33.51.08,1.04.12,1.61.12.46,0,.92-.03,1.38-.09.46-.06.88-.16,1.25-.31.37-.15.67-.34.91-.59.23-.25.35-.56.35-.95s-.09-.67-.26-.9c-.18-.23-.39-.41-.63-.53"/>
+          <polygon fill="currentColor" points="170.89 49.94 168.17 45.22 164.85 45.22 164.85 46.14 166.7 46.14 166.7 50.74 164.85 50.74 164.85 51.66 169 51.66 169 50.74 167.61 50.74 167.61 46.12 170.82 51.66 170.96 51.66 173.62 46.12 173.62 50.74 172.78 50.74 172.78 51.66 176.92 51.66 176.92 50.74 175.09 50.74 175.09 46.14 176.92 46.14 176.92 45.22 173.62 45.22 170.89 49.94"/>
+          <path fill="currentColor" d="M200.23,48.5c-.24-.13-.49-.21-.75-.27-.25-.05-.46-.09-.62-.1l-3-.29c-.42-.03-.75-.13-.99-.29-.24-.15-.36-.37-.36-.64,0-.13.05-.26.15-.39.1-.13.26-.24.48-.33.22-.1.5-.17.85-.23.35-.06.77-.09,1.26-.09.59,0,1.12.05,1.6.14.48.1.86.22,1.14.37v.67h.91v-1.84h-.91v.22c-.38-.13-.8-.24-1.27-.31-.46-.07-.95-.11-1.47-.11-.46,0-.91.03-1.36.09-.45.06-.85.16-1.21.31-.35.15-.64.34-.87.59-.22.25-.33.56-.33.94s.09.67.26.9c.18.23.39.41.63.53.24.13.49.21.74.27.25.05.46.09.62.11l3.01.29c.42.04.75.13.99.29.24.16.36.37.36.64,0,.14-.06.27-.17.39-.11.13-.28.24-.51.33s-.53.17-.88.23c-.36.06-.78.09-1.27.09-.64,0-1.22-.05-1.75-.15-.53-.1-.94-.22-1.24-.38v-.66h-.92v1.84h.92v-.25c.41.14.87.25,1.38.33.51.08,1.04.12,1.61.12.46,0,.92-.03,1.38-.09.46-.06.88-.16,1.25-.31.37-.15.67-.34.91-.59.23-.25.35-.56.35-.95s-.09-.67-.26-.9c-.18-.23-.39-.41-.63-.53"/>
           <polygon fill="currentColor" points="33.5 48.57 34.39 48.57 34.39 47.97 33.5 47.97 33.5 46.94 34.65 46.94 34.65 46.34 32.81 46.34 32.81 50.35 34.73 50.35 34.73 49.75 33.5 49.75 33.5 48.57"/>
           <path fill="currentColor" d="M37.67,47.28c0-.25.12-.39.34-.39.15,0,.34.1.37.44l.65-.07c-.06-.57-.39-.97-.95-.97-.68,0-1.06.36-1.06,1,0,1.15,1.4,1.36,1.4,2.15,0,.24-.16.37-.4.37-.22,0-.38-.2-.41-.6l-.65.09c.03.6.39,1.11,1.03,1.11s1.09-.37,1.09-1.03c0-1.09-1.4-1.41-1.4-2.09"/>
           <polygon fill="currentColor" points="41.24 46.94 41.9 46.94 41.9 50.35 42.59 50.35 42.59 46.94 43.26 46.94 43.26 46.34 41.24 46.34 41.24 46.94"/>
@@ -144,11 +144,11 @@ function initSvgLogoSwitcher(containerId) {
           <path fill="currentColor" d="M249.94,45.54c-.77,0-1.21.54-1.21,1.24v.22h.78v-.32c0-.29.13-.49.4-.49.22,0,.37.16.37.54,0,.7-.55,1.52-1.57,3v.64h2.28v-.67h-1.44c1.28-1.79,1.52-2.35,1.52-3.1,0-.55-.44-1.06-1.11-1.06"/>
           <path fill="currentColor" d="M254.2,48.61h-.81l.8-1.86h.01v1.86ZM254.93,45.61h-.79l-1.39,3.01v.61h1.42v1.15h.75v-1.15h.44v-.61h-.44v-3.01Z"/>
           <path fill="currentColor" d="M4.78,36.74l.69.69c.22.22.57.22.79,0l12.65-12.65c.22-.22.59-.22.81,0l6.32,6.32c.22.22.22.59,0,.81l-3.94,3.94c-.22.22-.22.59,0,.81l.67.67c.22.22.59.22.81,0l5.08-5.08c.41-.41.41-1.07,0-1.48l-6.24-6.24c-.21-.21-.06-.58.24-.58h242.77c.47,0,.71.57.37.9l-5.53,5.53c-.2.2-.31.46-.31.74s.11.54.31.74l14.44,14.44c.21.21.54.21.75,0l.73-.73c.21-.21.21-.54,0-.75l-13.33-13.33c-.21-.21-.21-.54,0-.75l5.99-5.99c.21-.21.54-.21.75,0l4.84,4.84c.21.21.54.21.75,0l.73-.73c.21-.21.21-.54,0-.75l-5.96-5.96h0c-.19-.18-.45-.3-.73-.3H19.31c-.27,0-.54.1-.74.31l-13.79,13.79c-.22.22-.22.57,0,.79"/>
-          <path fill="currentColor" d="M283.08,40.94l-13.21,13.21c-.21.21-.54.21-.75,0l-6.38-6.38c-.21-.21-.21-.54,0-.75l4.66-4.66c.21-.21.21-.54,0-.75l-.73-.73c-.21-.21-.54-.21-.75,0l-5.78,5.78c-.2.2-.31.46-.31.74s.11.54.31.74l5.92,5.92c.33.33.1.9-.37.9H22.67c-.21,0-.31-.25-.17-.4l6.03-6.03c.41-.41.41-1.07,0-1.48l-13.12-13.12c-.21-.21-.56-.21-.77,0l-.71.71c-.21.21-.21.56,0,.77l12.05,12.05c.18.18.18.48,0,.66l-6,6c-.23.23-.6.23-.83,0l-4.53-4.53c-.29-.29-.76-.29-1.06,0l-.42.42c-.29.29-.29.76,0,1.06l5.68,5.68h0c.19.18.45.3.73.3h249.91c.28,0,.54-.11.74-.31l14.33-14.33c.21-.21.21-.54,0-.75l-.73-.73c-.21-.21-.54-.21-.75,0"/>
-          <path fill="currentColor" d="M17.93,41.57l-.66-.65c-.23-.23-.6-.23-.82,0l-5.86,5.89c-1.4,1.44-3.51,1.92-5.56,1.11-1.82-.72-2.96-2.52-2.93-4.47,0-.04,0-.08,0-.12,0-.26-.09-.51-.27-.69l-1.06-1.11c-.17-.18-.48-.09-.53.15-.11.58-.23,1.32-.23,1.7,0,3.88,3.15,7.03,7.03,7.03,1.92,0,3.72-.76,5.04-2.13l5.85-5.88c.23-.23.23-.6,0-.82"/>
-          <path fill="currentColor" d="M8.07,45.96c.2.2.54.2.74,0l.74-.74c.2-.21.2-.54,0-.74l-5.93-5.9c-1.38-1.34-1.88-3.33-1.21-5.3.66-1.96,2.58-3.2,4.65-3.2.23,0,.3-.01.41,0,.19.02.38-.05.52-.19l1.09-1.09c.17-.17.11-.47-.12-.55-.66-.22-1.48-.26-1.9-.26C3.17,28,.02,31.15.02,35.03c0,1.92.76,3.72,2.13,5.04l5.92,5.89Z"/>
-          <path fill="currentColor" d="M271.91,37.47c.21.21.55.21.76,0l5.89-5.92c.94-.97,2.2-1.51,3.55-1.51,2.72,0,4.94,2.22,4.94,4.94,0,.24-.02.48-.05.72-.03.2.05.47.19.6l1.14,1.11c.13.13.35.07.4-.11.22-.79.4-1.87.4-2.32,0-3.88-3.15-7.03-7.03-7.03-1.92,0-3.71.76-5.04,2.13l-5.88,5.91c-.21.21-.21.55,0,.76l.72.71Z"/>
-          <path fill="currentColor" d="M286.63,38.58l-5.92-5.89c-.21-.21-.54-.21-.75,0l-.73.73c-.21.21-.21.54,0,.75l5.93,5.9c1.38,1.34,1.88,3.33,1.21,5.3-.69,2.03-2.68,3.28-4.82,3.19-.1,0-.19-.02-.33-.04-.35-.05-.73.39-.73.39l-.88.9c-.22.21-.1.59.2.63.67.1,1.55.21,1.91.21,3.88,0,7.03-3.15,7.03-7.03,0-1.92-.76-3.72-2.13-5.04"/>
+            <path fill="currentColor" d="M283.08,40.94l-13.21,13.21c-.21.21-.54.21-.75,0l-6.38-6.38c-.21-.21-.21-.54,0-.75l4.66-4.66c.21-.21.21-.54,0-.75l-.73-.73c-.21-.21-.54-.21-.75,0l-5.78,5.78c-.2.2-.31.46-.31.74s.11.54.31.74l5.92,5.92c.33.33.1.9-.37.9H22.67c-.21,0-.31-.25-.17-.4l6.03-6.03c.41-.41.41-1.07,0-1.48l-13.12-13.12c-.21-.21-.56-.21-.77,0l-.71.71c-.21.21-.21.56,0,.77l12.05,12.05c.18.18.18.48,0,.66l-6,6c-.23.23-.6.23-.83,0l-4.53-4.53c-.29-.29-.76-.29-1.06,0l-.42.42c-.29.29-.29.76,0,1.06l5.68,5.68h0c.19.18.45.3.73.3h249.91c.28,0,.54-.11.74-.31l14.33-14.33c.21-.21.21-.54,0-.75l-.73-.73c-.21-.21-.54-.21-.75,0"/>
+            <path fill="currentColor" d="M17.93,41.57l-.66-.65c-.23-.23-.6-.23-.82,0l-5.86,5.89c-1.4,1.44-3.51,1.92-5.56,1.11-1.82-.72-2.96-2.52-2.93-4.47,0-.04,0-.08,0-.12,0-.26-.09-.51-.27-.69l-1.06-1.11c-.17-.18-.48-.09-.53.15-.11.58-.23,1.32-.23,1.7,0,3.88,3.15,7.03,7.03,7.03,1.92,0,3.72-.76,5.04-2.13l5.85-5.88c.23-.23.23-.6,0-.82"/>
+            <path fill="currentColor" d="M8.07,45.96c.2.2.54.2.74,0l.74-.74c.2-.21.2-.54,0-.74l-5.93-5.9c-1.38-1.34-1.88-3.33-1.21-5.3-.66-1.96,2.58-3.2,4.65-3.2.23,0,.3-.01.41,0,.19.02.38-.05.52-.19l1.09-1.09c.17-.17.11-.47-.12-.55-.66-.22-1.48-.26-1.9-.26C3.17,28,.02,31.15.02,35.03c0,1.92.76,3.72,2.13,5.04l5.92,5.89Z"/>
+            <path fill="currentColor" d="M271.91,37.47c.21.21.55.21.76,0l5.89-5.92c.94-.97,2.2-1.51,3.55-1.51,2.72,0,4.94,2.22,4.94,4.94,0,.24-.02.48-.05.72-.03.2.05.47.19.6l1.14,1.11c.13.13.35.07.4-.11.22-.79.4-1.87.4-2.32,0-3.88-3.15-7.03-7.03-7.03-1.92,0-3.71.76-5.04,2.13l-5.88,5.91c-.21.21-.21.55,0,.76l.72.71Z"/>
+            <path fill="currentColor" d="M286.63,38.58l-5.92-5.89c-.21-.21-.54-.21-.75,0l-.73.73c-.21.21-.21.54,0,.75l5.93,5.9c1.38,1.34,1.88,3.33,1.21,5.3-.69,2.03-2.68,3.28-4.82,3.19-.1,0-.19-.02-.33-.04-.35-.05-.73.39-.73.39l-.88.9c-.22.21-.1.59.2.63.67.1,1.55.21,1.91.21,3.88,0,7.03-3.15,7.03-7.03,0-1.92-.76-3.72-2.13-5.04"/>
         </svg>
     `;
 
@@ -257,15 +257,13 @@ function initSvgLogoSwitcher(containerId) {
                         <div class="flex flex-col sm:flex-row gap-4">
                             <!-- Emblem Preview (Increased min-height) -->
                             <div class="w-full sm:w-1/2 flex flex-col items-center">
-                                <div class="flex justify-center items-center p-4 bg-muted/30 rounded-md min-h-[200px] w-full">
-                                    ${EmblemLogoSvg}
+                                <div class="flex justify-center items-center p-4 bg-muted/30 rounded-md min-h-[200px] w-full" id="${containerId}-emblem-logo-container">
                                 </div>
                                 <h3 class="text-lg font-semibold text-foreground text-center mt-2">Emblem</h3>
                             </div>
                             <!-- Patch Preview (Increased min-height) -->
                             <div class="w-full sm:w-1/2 flex flex-col items-center">
-                                <div class="flex justify-center items-center p-4 bg-muted/30 rounded-md min-h-[200px] w-full">
-                                    ${PatchLogoSvg}
+                                <div class="flex justify-center items-center p-4 bg-muted/30 rounded-md min-h-[200px] w-full" id="${containerId}-patch-logo-container">
                                 </div>
                                 <h3 class="text-lg font-semibold text-foreground text-center mt-2">Patch</h3>
                             </div>
@@ -307,28 +305,15 @@ function initSvgLogoSwitcher(containerId) {
                 font-family: 'Inter', sans-serif;
                 -webkit-font-smoothing: antialiased;
                 -moz-osx-font-smoothing: grayscale;
-                /* Base theme colors are handled by dynamic class toggle */
                 transition: background-color 0.3s ease, color 0.3s ease;
-            }
-            body.light {
-                background-color: #f8f8f8;
+                background-color: #f8f8f875;
                 color: #1a1a1a;
-            }
-            body.dark {
-                background-color: #1a1a1a;
-                color: #f8f8f8;
             }
             /* Mimic Shadcn Card */
             .card {
-                background-color: white;
-                border-radius: 0.5rem;
-                border: 1px solid #e5e7eb; /* border-gray-200 */
-                box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-            }
-            body.dark .card {
-                background-color: #262626; /* Darker background for card in dark mode */
-                border-color: #4a4a4a; /* Darker border */
-                box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+                background-color: transparent;
+                border: none;
+                box-shadow: none;
             }
             /* Mimic Shadcn Button */
             .btn {
@@ -344,22 +329,13 @@ function initSvgLogoSwitcher(containerId) {
                 transition: all 0.2s ease-in-out;
             }
             .btn-outline {
-                border: 1px solid #e5e7eb; /* border-input */
+                border: 1px solid #e5e7eb66; /* border-input */
                 background-color: white; /* bg-background */
                 color: #1a1a1a; /* text-foreground */
             }
-            body.dark .btn-outline {
-                border-color: #4a4a4a;
-                background-color: #262626;
-                color: #f8f8f8;
-            }
             .btn-outline:hover {
-                background-color: #f3f4f6; /* hover:bg-accent */
+                background-color: #f3f4f683; /* hover:bg-accent */
                 color: #1a1a1a; /* hover:text-accent-foreground */
-            }
-            body.dark .btn-outline:hover {
-                background-color: #333333;
-                color: #f8f8f8;
             }
             .btn-icon {
                 height: 2rem; /* h-8 */
@@ -376,18 +352,12 @@ function initSvgLogoSwitcher(containerId) {
             /* Separator */
             .separator {
                 height: 1px;
-                background-color: #e5e7eb; /* bg-muted-foreground/20 */
-            }
-            body.dark .separator {
-                background-color: #4a4a4a;
+                background-color: #e5e7eb76; /* bg-muted-foreground/20 */
             }
             /* Text styles */
             .text-foreground { color: #1a1a1a; }
-            body.dark .text-foreground { color: #f8f8f8; }
             .text-muted-foreground { color: #6b7280; }
-            body.dark .text-muted-foreground { color: #9ca3af; }
-            .bg-muted\\/30 { background-color: rgba(229, 231, 235, 0.3); } /* bg-gray-200 with opacity */
-            body.dark .bg-muted\\/30 { background-color: rgba(75, 85, 99, 0.3); } /* bg-gray-600 with opacity */
+            .bg-muted\/30 { background-color: rgba(229, 231, 235, 0.3); } /* bg-gray-200 with opacity */
         `;
         document.head.appendChild(style);
 
@@ -396,17 +366,6 @@ function initSvgLogoSwitcher(containerId) {
         fontLink.href = "https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap";
         fontLink.rel = "stylesheet";
         document.head.appendChild(fontLink);
-
-        // Load Tailwind CSS if not already present (optional, assume it's there for simplicity)
-        // For a truly embeddable solution without external dependencies, you'd include all Tailwind classes
-        // directly in the injected style or use a different CSS approach.
-        // For this example, we'll assume the host page either loads Tailwind or you manually add the CDN script.
-        // If you want to include it dynamically:
-        /*
-        const tailwindScript = document.createElement('script');
-        tailwindScript.src = "https://cdn.tailwindcss.com";
-        document.head.appendChild(tailwindScript);
-        */
     }
 
     // --- Functions to update UI ---
@@ -454,7 +413,7 @@ function initSvgLogoSwitcher(containerId) {
 
             let displayHex;
             if (colorOpt.isDynamic) {
-                displayHex = currentTheme === 'light' ? colorOpt.lightValue : colorOpt.darkValue;
+                displayHex = colorOpt.lightValue;
             } else {
                 displayHex = colorOpt.value;
             }
@@ -462,7 +421,7 @@ function initSvgLogoSwitcher(containerId) {
             let checkMarkColor = "currentColor";
             if (isActive) {
                 if (colorOpt.isDynamic && colorOpt.name === "Satin") {
-                    checkMarkColor = currentTheme === 'light' ? colorOpt.checkColorLight : colorOpt.checkColorDark;
+                    checkMarkColor = colorOpt.checkColorLight;
                 } else if (colorOpt.checkColorLight && colorOpt.checkColorDark) {
                     const luma = getLuma(displayHex);
                     checkMarkColor = luma < 128 ? colorOpt.checkColorDark : colorOpt.checkColorLight;
@@ -517,7 +476,7 @@ function initSvgLogoSwitcher(containerId) {
     function handleColorChange(colorOpt) {
         selectedColorName = colorOpt.name;
         if (colorOpt.isDynamic) {
-            currentColor = currentTheme === 'light' ? colorOpt.lightValue : colorOpt.darkValue;
+            currentColor = colorOpt.lightValue;
         } else {
             currentColor = colorOpt.value;
         }
@@ -541,24 +500,28 @@ function initSvgLogoSwitcher(containerId) {
     rootContainer.appendChild(switcherHtml);
     // Increased width, centered it, added background transparency with a blur effect, and set a minimum height.
     // Using a fixed width for demonstration, consider responsive classes like 'lg:w-3/4' or 'max-w-screen-lg' for production.
-    switcherHtml.className = 'w-[1000px] min-h-[600px] mx-auto p-4 md:p-8 bg-slate-100/80 dark:bg-secondary/80 backdrop-blur-sm rounded-lg shadow-lg animate-fade-in-up';
+    switcherHtml.className = 'w-[1000px] min-h-[600px] mx-auto p-4 md:p-8 backdrop-blur-sm rounded-lg shadow-lg animate-fade-in-up';
     // Get references to the dynamically created DOM elements after they are appended
     logoDisplay = rootContainer.querySelector(`#${containerId}-logo-display`);
     logoVariantName = rootContainer.querySelector(`#${containerId}-logo-variant-name`);
     toggleLogoBtn = rootContainer.querySelector(`#${containerId}-toggle-logo-btn`);
-    emblemLogoElement = rootContainer.querySelector('#Layer_1_Emblem'); // IDs are unique globally
-    patchLogoElement = rootContainer.querySelector('#Layer_1_Patch');   // IDs are unique globally
+    const emblemLogoContainer = rootContainer.querySelector(`#${containerId}-emblem-logo-container`);
+    const patchLogoContainer = rootContainer.querySelector(`#${containerId}-patch-logo-container`);
+    emblemLogoContainer.innerHTML = EmblemLogoSvg;
+    patchLogoContainer.innerHTML = PatchLogoSvg;
+    emblemLogoElement = emblemLogoContainer.querySelector('#Layer_1_Emblem'); // IDs are unique globally
+    patchLogoElement = patchLogoContainer.querySelector('#Layer_1_Patch');   // IDs are unique globally
     colorPaletteContainer = rootContainer.querySelector(`#${containerId}-color-palette-container`);
     selectedColorNameDisplay = rootContainer.querySelector(`#${containerId}-selected-color-name`);
 
     // Initialize state based on theme and default color (Satin)
     selectedColorName = satinOption.name;
-    currentColor = currentTheme === 'light' ? satinOption.lightValue : satinOption.darkValue;
+    currentColor = satinOption.lightValue;
 
     // Apply initial theme and set up listener
     applyTheme(currentTheme);
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
-        applyTheme(e.matches ? 'dark' : 'light');
+        applyTheme('light'); // Always apply light theme
     });
 
     // Attach event listeners

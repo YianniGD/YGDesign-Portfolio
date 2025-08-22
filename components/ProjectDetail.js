@@ -58,8 +58,14 @@ export default function ProjectDetail(project, onBack) {
                         ${project.longDescription}
                     </div>
                     <div class="flex items-center space-x-4 mt-8">
-                        ${project.liveUrl ? `<a href="${project.liveUrl}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-sky-500 text-white dark:bg-accent dark:text-primary font-bold py-3 px-6 rounded-full hover:bg-sky-600 dark:hover:bg-accent-hover transform hover:scale-105 transition-all duration-300">Live Demo ${ExternalLinkIcon({ size: 18 })}</a>` : ''}
-                        ${project.githubUrl ? `<a href="${project.githubUrl}" target="_blank" rel="noopener noreferrer" class="text-slate-500 dark:text-text-secondary hover:text-sky-600 dark:hover:text-accent transition-colors transform hover:scale-110">${GitHubIcon({ className: "w-8 h-8" })}</a>` : ''}
+                        ${project.liveUrl && project.liveUrlIcon ? `
+                            <a href="${project.liveUrl}" target="_blank" rel="noopener noreferrer" class="text-slate-500 dark:text-text-secondary hover:opacity-80 transition-opacity transform hover:scale-110 duration-300" title="View Live Site">
+                                <img src="${project.liveUrlIcon}" alt="Live site icon" class="w-9 h-9 rounded-lg shadow-md" />
+                            </a>
+                        ` : project.liveUrl ? `
+                            <a href="${project.liveUrl}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-sky-500 text-white dark:bg-accent dark:text-primary font-bold py-3 px-6 rounded-full hover:bg-sky-600 dark:hover:bg-accent-hover transform hover:scale-105 transition-all duration-300">Live Demo ${ExternalLinkIcon({ size: 18 })}</a>
+                        ` : ''}
+                        ${project.githubUrl ? `<a href="${project.githubUrl}" target="_blank" rel="noopener noreferrer" class="text-slate-500 dark:text-text-secondary hover:text-sky-600 dark:hover:text-accent transition-colors transform hover:scale-110" title="View on GitHub">${GitHubIcon({ className: "w-8 h-8" })}</a>` : ''}
                     </div>
                 </div>
             </div>

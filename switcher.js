@@ -53,7 +53,8 @@ function initSvgLogoSwitcher(containerId) {
     };
 
     // Style the main container using Tailwind classes
-    container.className = 'p-4 md:p-8 bg-slate-100 dark:bg-secondary rounded-lg shadow-lg animate-fade-in-up';
+    // Increased width, centered it, and added background transparency with a blur effect.
+    container.className = 'w-full max-w-6xl mx-auto p-4 md:p-8 bg-slate-100/80 dark:bg-secondary/80 backdrop-blur-sm rounded-lg shadow-lg animate-fade-in-up';
 
     const title = document.createElement('h2');
     title.textContent = 'Kellarden Farms - Logo Variations';

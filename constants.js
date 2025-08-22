@@ -27,7 +27,7 @@ export const PROFILE_INFO = {
     name: "YGDesign",
     title: "Graphic designer and Frontend Engineer",
     bio: "",
-    avatarUrl: "Public/images/Other/prof.jpeg",
+    avatarUrl: "/images/Other/prof.jpeg",
     email: "yianni.galiatsatos@email.com",
     linkedin: "https://www.linkedin.com/in/yiannigaliatsatos/",
     github: "https://github.com/YianniGD",

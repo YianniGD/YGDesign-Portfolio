@@ -27,7 +27,7 @@ export const PROFILE_INFO = {
     name: "YGDesign",
     title: "Graphic designer and Frontend Engineer",
     bio: "",
-    avatarUrl: "https://storage.googleapis.com/ygportfolio/thumbnail.webp",
+    avatarUrl: "Public/images/Other/prof.jpeg",
     email: "yianni.galiatsatos@email.com",
     linkedin: "https://www.linkedin.com/in/yiannigaliatsatos/",
     github: "https://github.com/YianniGD",
@@ -63,9 +63,7 @@ export const PROJECTS = [
             "Public/images/D/D-14.webp",
             "Public/images/D/D-15.webp",
             "Public/images/D/D-11.webp"
-        ],
-        githubUrl: "#",
-    },
+        ],    },
     {
         id: "kellarden-farms-identity",
         title: "Kellarden Farms Identity Proposal",
@@ -104,7 +102,7 @@ export const PROJECTS = [
                 <li>Color palette selection to evoke energy and youthfulness.</li>
                 <li>Mockups showing the logo on merchandise and digital platforms.</li>
             </ul>`,
-        tags: ["Logo Design", "Branding", "Graphic Design", "Illustration", "Figma"],
+        tags: ["Logo Design", "Branding", "Graphic Design", "Illustration"],
         imageUrls: [
             "Public/images/YS/YS_1.webp",
             "Public/images/YS/YS_5.webp",

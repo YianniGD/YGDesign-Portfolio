@@ -34,7 +34,6 @@ export default function Hero() {
                     <img
                         src="${PROFILE_INFO.avatarUrl}"
                         alt="Profile Photo"
-                        onerror="this.onerror=null;this.src='https://placehold.co/300x300/cccccc/333333?text=Error';"
                     />
                     <div id="discHighlight" class="disc-highlight"></div>
                 </div>

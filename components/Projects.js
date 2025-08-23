@@ -10,7 +10,15 @@ function ProjectCard(project, onProjectSelect) {
     element.setAttribute('aria-label', `View details for ${project.title}`);
 
     const githubLink = project.githubUrl ? `<a href="${project.githubUrl}" target="_blank" rel="noopener noreferrer" class="github-link text-slate-400 dark:text-text-secondary hover:text-sky-600 dark:hover:text-accent transition-colors">${GitHubIcon({className: 'w-6 h-6'})}</a>` : '';
-    const liveLink = project.liveUrl ? `<a href="${project.liveUrl}" target="_blank" rel="noopener noreferrer" class="live-link text-sky-600 dark:text-accent font-semibold hover:text-sky-700 dark:hover:text-accent-hover transition-colors">Live Demo</a>` : '';
+    
+    let liveLink = '';
+    if (project.liveUrl) {
+        if (project.liveUrlIcon) {
+            liveLink = `<a href="${project.liveUrl}" target="_blank" rel="noopener noreferrer" class="live-link"><img src="${project.liveUrlIcon}" alt="Live demo icon" class="w-8 h-8"></a>`;
+        } else {
+            liveLink = `<a href="${project.liveUrl}" target="_blank" rel="noopener noreferrer" class="live-link text-sky-600 dark:text-accent font-semibold hover:text-sky-700 dark:hover:text-accent-hover transition-colors">Live Demo</a>`;
+        }
+    }
 
     element.innerHTML = `
         <div class="overflow-hidden">
@@ -46,6 +54,7 @@ function ProjectCard(project, onProjectSelect) {
 
     return element;
 }
+
 
 export default function Projects(onProjectSelect) {
     const element = document.createElement('div');

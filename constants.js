@@ -43,9 +43,9 @@ export const PROJECTS = [
     {
         id: "echo-wellness-app",
         title: "Echo: Wellness Application",
-        description: "A UI/UX concept for a wellness application focused on mental clarity, mindfulness, and achieving a state of flow. I created this mosstly as a tool for myself, I couldn't find one tool that offered everything that I wanted so I set out to build my own. The application is still in active development, but there is a live version that is available to anyone.",
+        description: "A UI/UX concept for a wellness application focused on mental clarity, mindfulness, and achieving a state of flow.",
         longDescription: `
-            <p class="mb-4">Echo is a conceptual UI/UX project for a wellness application designed to help users find mental clarity and focus. The app centers around minimalist design and intuitive interactions to create a serene user experience.</p>
+            <p class="mb-4">Echo is a proof of concept UI/UX project for a wellness application designed to help users find mental clarity and focus. I created this mosstly as a tool for myself, I couldn't find one tool that offered everything that I wanted so I set out to build my own. The application is still in active development, but there is a live version that is available to anyone. The app centers around minimalist design and intuitive interactions to create a serene user experience.</p>
             <p class="mb-4">The core feature is a guided focus timer, complemented by ambient soundscapes and mindfulness exercises. The goal is to provide a tool that seamlessly integrates into a user's daily routine, promoting well-being without being intrusive.</p>
             <ul class="list-disc list-inside mb-4 space-y-2">
                 <li>Clean and minimalist user interface.</li>
@@ -59,6 +59,25 @@ export const PROJECTS = [
         ],
         liveUrl: "https://echo-kappa-gilt.vercel.app/",
         liveUrlIcon: "Public/images/E/icon-192x192.png"
+    },
+    {
+        id: "pokedex-app",
+        title: "Pokedex App",
+        description: "A Pokedex app built with React, showcasing a list of Pokemon with their details.",
+        longDescription: `
+            <p class="mb-4">This project is a classic Pokedex application that allows users to browse through a list of Pokemon, view their details, and search for specific Pokemon. It was built using React and the PokeAPI.</p>
+            <ul class="list-disc list-inside mb-4 space-y-2">
+                <li>Fetches and displays a list of Pokemon from the PokeAPI.</li>
+                <li>Allows users to view detailed information for each Pokemon.</li>
+                <li>Includes a search functionality to easily find Pokemon.</li>
+                <li>Responsive design for a seamless experience on different devices.</li>
+            </ul>`,
+        tags: ["React", "JavaScript", "API", "UI/UX Design"],
+        imageUrls: [
+            "Public/images/Other/dexscreen.webp"
+        ],
+        liveUrl: "https://yiannigd.github.io/Pokemon-Index/",
+        liveUrlIcon: "Public/images/Other/dex.png"
     },
     {
         id: "durga-tea-company",

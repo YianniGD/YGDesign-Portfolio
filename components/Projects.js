@@ -64,7 +64,8 @@ export default function Projects(onProjectSelect) {
     element.appendChild(SectionTitle('My Projects'));
 
     const grid = document.createElement('div');
-    grid.className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 w-full max-w-5xl";
+    grid.className = "grid gap-8 w-full max-w-7xl";
+    grid.style.gridTemplateColumns = 'repeat(auto-fit, minmax(300px, 1fr))';
 
     PROJECTS.forEach(project => {
         grid.appendChild(ProjectCard(project, onProjectSelect));

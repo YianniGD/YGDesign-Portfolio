@@ -11,6 +11,7 @@
  * @property {string} [liveUrl]
  * @property {string} [liveUrlIcon]
  * @property {string} [embedUrl]
+ * @property {string} [pdfUrl]
  */
 
 /**
@@ -41,43 +42,28 @@ export const PROFILE_INFO = {
 /** @type {Project[]} */
 export const PROJECTS = [
     {
-        id: "echo-wellness-app",
-        title: "Echo: Wellness Application",
-        description: "A UI/UX concept for a wellness application focused on mental clarity, mindfulness, and achieving a state of flow.",
+        id: "apps",
+        title: "Apps",
+        description: "A collection of web applications I've built.",
         longDescription: `
-            <p class="mb-4">Echo is a proof of concept UI/UX project for a wellness application designed to help users find mental clarity and focus. I created this mosstly as a tool for myself, I couldn't find one tool that offered everything that I wanted so I set out to build my own. The application is still in active development, but there is a live version that is available to anyone. The app centers around minimalist design and intuitive interactions to create a serene user experience.</p>
-            <p class="mb-4">The core feature is a guided focus timer, complemented by ambient soundscapes and mindfulness exercises. The goal is to provide a tool that seamlessly integrates into a user's daily routine, promoting well-being without being intrusive.</p>
+            <p class="mb-4">A collection of web applications I've built.</p>
             <ul class="list-disc list-inside mb-4 space-y-2">
-                <li>Clean and minimalist user interface.</li>
-                <li>Focus timer with customizable ambient sounds.</li>
-                <li>Mindfulness and breathing exercises.</li>
-                <li>Progress tracking for wellness goals.</li>
-            </ul>`,
-        tags: ["UI/UX Design", "Mobile App", "Wellness", "Figma", "Conceptual"],
+                <li>
+                    <a href="https://echo-kappa-gilt.vercel.app/" target="_blank" rel="noopener noreferrer"><img src="Public/images/Other/echo.png" alt="Echo Wellness App Demo" class="w-16 h-auto inline-block mr-4"></a><strong>Echo: Wellness Application</strong> - A UI/UX concept for a wellness application focused on mental clarity, mindfulness, and achieving a state of flow. 
+                </li>
+                <li>
+                    <a href="https://yiannigd.github.io/Pokemon-Index/" target="_blank" rel="noopener noreferrer"><img src="Public/images/Other/dex.png" alt="Pokedex App Demo" class="w-16 h-auto inline-block mr-4"></a><strong>Pokedex App</strong> - A Pokedex app built with React, showcasing a list of Pokemon with their details. 
+                </li>
+                <li>
+                    <a href="https://yiannigd.github.io/Tally-Counter/" target="_blank" rel="noopener noreferrer"><img src="Public/images/Other/tally.png" alt="Tally Counter App Demo" class="w-16 h-auto inline-block mr-4"></a><strong>Tally Counter</strong> - A simple tally counter application built with in vanilla Javascript.
+                </li>
+            </ul>
+        `,
+        tags: ["React", "JavaScript", "UI/UX Design", "Web Apps"],
         imageUrls: [
-            "Public/images/E/echosplash.webp"
-        ],
-        liveUrl: "https://echo-kappa-gilt.vercel.app/",
-        liveUrlIcon: "Public/images/E/icon-192x192.png"
-    },
-    {
-        id: "pokedex-app",
-        title: "Pokedex App",
-        description: "A Pokedex app built with React, showcasing a list of Pokemon with their details.",
-        longDescription: `
-            <p class="mb-4">This project is a classic Pokedex application that allows users to browse through a list of Pokemon, view their details, and search for specific Pokemon. It was built using React and the PokeAPI.</p>
-            <ul class="list-disc list-inside mb-4 space-y-2">
-                <li>Fetches and displays a list of Pokemon from the PokeAPI.</li>
-                <li>Allows users to view detailed information for each Pokemon.</li>
-                <li>Includes a search functionality to easily find Pokemon.</li>
-                <li>Responsive design for a seamless experience on different devices.</li>
-            </ul>`,
-        tags: ["React", "JavaScript", "API", "UI/UX Design"],
-        imageUrls: [
+            "Public/images/E/echosplash.webp",
             "Public/images/Other/dexscreen.webp"
         ],
-        liveUrl: "https://yiannigd.github.io/Pokemon-Index/",
-        liveUrlIcon: "Public/images/Other/dex.png"
     },
     {
         id: "durga-tea-company",
@@ -180,6 +166,7 @@ export const PROJECTS = [
             "Public/images/SS/SS_9.webp",
             "Public/images/SS/SS_10.webp"
         ],
+        pdfUrl: "Public/images/Silver_Screen_Zine.pdf"
     },
     {
         id: "university-work",

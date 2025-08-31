@@ -66,6 +66,7 @@ export default function ProjectDetail(project, onBack) {
                             <a href="${project.liveUrl}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-sky-500 text-white dark:bg-accent dark:text-primary font-bold py-3 px-6 rounded-full hover:bg-sky-600 dark:hover:bg-accent-hover transform hover:scale-105 transition-all duration-300">Live Demo ${ExternalLinkIcon({ size: 18 })}</a>
                         ` : ''}
                         ${project.githubUrl ? `<a href="${project.githubUrl}" target="_blank" rel="noopener noreferrer" class="text-slate-500 dark:text-text-secondary hover:text-sky-600 dark:hover:text-accent transition-colors transform hover:scale-110" title="View on GitHub">${GitHubIcon({ className: "w-8 h-8" })}</a>` : ''}
+                        ${project.pdfUrl ? `<a href="${project.pdfUrl}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-sky-500 text-white dark:bg-accent dark:text-primary font-bold py-3 px-6 rounded-full hover:bg-sky-600 dark:hover:bg-accent-hover transform hover:scale-105 transition-all duration-300">View PDF ${ExternalLinkIcon({ size: 18 })}</a>` : ''}
                     </div>
                 </div>
             </div>
@@ -159,6 +160,31 @@ export default function ProjectDetail(project, onBack) {
         const currentIndex = mainGalleryImages.indexOf(mainImageSrc);
         openPhotoSwipe(currentIndex >= 0 ? currentIndex : 0);
     });
+
+    let touchStartX = 0;
+    let touchEndX = 0;
+
+    mainImageElement.addEventListener('touchstart', (event) => {
+        touchStartX = event.changedTouches[0].screenX;
+    }, { passive: true });
+
+    mainImageElement.addEventListener('touchend', (event) => {
+        touchEndX = event.changedTouches[0].screenX;
+        handleSwipeGesture();
+    });
+
+    const handleSwipeGesture = () => {
+        const currentIndex = mainGalleryImages.indexOf(mainImageSrc);
+        if (touchEndX < touchStartX && Math.abs(touchStartX - touchEndX) > 50) {
+            const nextIndex = (currentIndex + 1) % mainGalleryImages.length;
+            handleThumbnailClick(mainGalleryImages[nextIndex]);
+        }
+
+        if (touchEndX > touchStartX && Math.abs(touchStartX - touchEndX) > 50) {
+            const prevIndex = (currentIndex - 1 + mainGalleryImages.length) % mainGalleryImages.length;
+            handleThumbnailClick(mainGalleryImages[prevIndex]);
+        }
+    };
 
     element.querySelector('#back-button').addEventListener('click', onBack);
     if (thumbnailContainer) {

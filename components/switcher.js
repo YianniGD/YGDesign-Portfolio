@@ -55,15 +55,39 @@ function initSvgLogoSwitcher(containerId) {
         return 0.2126 * r + 0.7152 * g + 0.0722 * b;
     }
 
-    // --- Theme Management (Simplified) ---
-    let currentTheme = 'light'; // Always light mode
+    // --- Theme Management ---
+    let currentTheme = 'dark'; // Default theme
+
+    function getTheme() {
+        try {
+            const storedTheme = localStorage.getItem('theme');
+            if (storedTheme === 'light' || storedTheme === 'dark') {
+                return storedTheme;
+            }
+        } catch (e) {
+            console.warn("Could not access localStorage for theme preference.");
+        }
+        return document.documentElement.classList.contains('dark') ? 'dark' : 'light';
+    }
 
     function applyTheme(theme) {
-        // document.body.classList.toggle('dark', theme === 'dark'); // Removed theme toggling
-        localStorage.setItem('theme', theme);
+        const root = document.documentElement;
         currentTheme = theme;
+
+        if (theme === 'light') {
+            root.classList.remove('dark');
+        } else {
+            root.classList.add('dark');
+        }
+
+        try {
+            localStorage.setItem('theme', theme);
+        } catch (e) {
+            console.warn("Could not save theme preference to localStorage.");
+        }
         updateUI(); // Re-render UI based on new theme
     }
+
 
     // --- SVG Logo Definitions ---
     const TaplowVariantLogoSvg = ` 
@@ -211,7 +235,6 @@ function initSvgLogoSwitcher(containerId) {
     ];
 
     const satinOption = paletteColors.find(c => c.name === "Satin");
-    const serverDefaultSatinColor = satinOption.darkValue;
 
     // --- DOM Elements (will be created dynamically) ---
     let rootContainer; // The container specified by containerId
@@ -275,10 +298,6 @@ function initSvgLogoSwitcher(containerId) {
                     <!-- Color Palette -->
                     <div class="flex flex-col items-center space-y-3 pt-0">
                         <div id="${containerId}-color-palette-container" class="flex items-center justify-center space-x-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-muted-foreground mr-2">
-                                <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.08a2 2 0 0 1 1 1.73v.44a2 2 0 0 1-1 1.73l-.15.08a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.43-.25a2 2 0 0 1 1-1.73v.18a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.38a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.73v-.44a2 2 0 0 1 1-1.73l.15-.08a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.43.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"></path>
-                                <circle cx="12" cy="12" r="3"></circle>
-                            </svg>
                             <!-- Color swatch buttons will be injected here -->
                         </div>
                         <p id="${containerId}-selected-color-name" class="text-xs text-muted-foreground">Selected: Satin</p>
@@ -306,8 +325,6 @@ function initSvgLogoSwitcher(containerId) {
                 -webkit-font-smoothing: antialiased;
                 -moz-osx-font-smoothing: grayscale;
                 transition: background-color 0.3s ease, color 0.3s ease;
-                background-color: #f8f8f875;
-                color: #1a1a1a;
             }
             /* Mimic Shadcn Card */
             .card {
@@ -330,12 +347,10 @@ function initSvgLogoSwitcher(containerId) {
             }
             .btn-outline {
                 border: 1px solid #e5e7eb66; /* border-input */
-                background-color: white; /* bg-background */
-                color: #1a1a1a; /* text-foreground */
+                background-color: transparent;
             }
             .btn-outline:hover {
                 background-color: #f3f4f683; /* hover:bg-accent */
-                color: #1a1a1a; /* hover:text-accent-foreground */
             }
             .btn-icon {
                 height: 2rem; /* h-8 */
@@ -354,10 +369,6 @@ function initSvgLogoSwitcher(containerId) {
                 height: 1px;
                 background-color: #e5e7eb76; /* bg-muted-foreground/20 */
             }
-            /* Text styles */
-            .text-foreground { color: #1a1a1a; }
-            .text-muted-foreground { color: #6b7280; }
-            .bg-muted\/30 { background-color: rgba(229, 231, 235, 0.3); } /* bg-gray-200 with opacity */
         `;
         document.head.appendChild(style);
 
@@ -374,15 +385,18 @@ function initSvgLogoSwitcher(containerId) {
         const activeLogo = logoVariants[currentVariantIndex];
         let svgContent;
         let variantName;
+        const theme = getTheme();
+        const themeName = theme.charAt(0).toUpperCase() + theme.slice(1);
+
 
         switch (activeLogo) {
             case 'taplow':
                 svgContent = TaplowVariantLogoSvg;
-                variantName = 'Taplow Variant';
+                variantName = `Taplow Variant (${themeName})`;
                 break;
             case 'barrow':
                 svgContent = BarrowVariantLogoSvg;
-                variantName = 'Barrow Variant';
+                variantName = `Barrow Variant (${themeName})`;
                 break;
         }
         logoDisplay.innerHTML = svgContent;
@@ -407,13 +421,14 @@ function initSvgLogoSwitcher(containerId) {
     function renderColorPalette() {
         const existingButtons = colorPaletteContainer.querySelectorAll('.color-swatch-button');
         existingButtons.forEach(btn => btn.remove());
+        const theme = getTheme();
 
         paletteColors.forEach(colorOpt => {
             const isActive = selectedColorName === colorOpt.name;
 
             let displayHex;
             if (colorOpt.isDynamic) {
-                displayHex = colorOpt.lightValue;
+                displayHex = theme === 'dark' ? colorOpt.darkValue : colorOpt.lightValue;
             } else {
                 displayHex = colorOpt.value;
             }
@@ -421,7 +436,7 @@ function initSvgLogoSwitcher(containerId) {
             let checkMarkColor = "currentColor";
             if (isActive) {
                 if (colorOpt.isDynamic && colorOpt.name === "Satin") {
-                    checkMarkColor = colorOpt.checkColorLight;
+                    checkMarkColor = theme === 'dark' ? colorOpt.checkColorDark : colorOpt.checkColorLight;
                 } else if (colorOpt.checkColorLight && colorOpt.checkColorDark) {
                     const luma = getLuma(displayHex);
                     checkMarkColor = luma < 128 ? colorOpt.checkColorDark : colorOpt.checkColorLight;
@@ -455,7 +470,8 @@ function initSvgLogoSwitcher(containerId) {
 
             colorPaletteContainer.appendChild(button);
         });
-        selectedColorNameDisplay.textContent = `Selected: ${selectedColorName}`;
+        const themeName = theme.charAt(0).toUpperCase() + theme.slice(1);
+        selectedColorNameDisplay.textContent = `Selected: ${selectedColorName} (${themeName} Mode)`;
     }
 
     // Main update function that re-renders all dynamic parts
@@ -469,14 +485,14 @@ function initSvgLogoSwitcher(containerId) {
 
     function toggleLogo() {
         currentVariantIndex = (currentVariantIndex + 1) % logoVariants.length;
-        // activeLogo is now derived from logoVariants[currentVariantIndex]
         updateUI();
     }
 
     function handleColorChange(colorOpt) {
         selectedColorName = colorOpt.name;
+        const theme = getTheme();
         if (colorOpt.isDynamic) {
-            currentColor = colorOpt.lightValue;
+            currentColor = theme === 'dark' ? colorOpt.darkValue : colorOpt.lightValue;
         } else {
             currentColor = colorOpt.value;
         }
@@ -498,9 +514,8 @@ function initSvgLogoSwitcher(containerId) {
     // Append the switcher HTML to the root container
     const switcherHtml = createSwitcherHtml();
     rootContainer.appendChild(switcherHtml);
-    // Increased width, centered it, added background transparency with a blur effect, and set a minimum height.
-    // Using a fixed width for demonstration, consider responsive classes like 'lg:w-3/4' or 'max-w-screen-lg' for production.
     switcherHtml.className = 'w-[1000px] min-h-[600px] mx-auto p-4 md:p-8 backdrop-blur-sm rounded-lg shadow-lg animate-fade-in-up';
+    
     // Get references to the dynamically created DOM elements after they are appended
     logoDisplay = rootContainer.querySelector(`#${containerId}-logo-display`);
     logoVariantName = rootContainer.querySelector(`#${containerId}-logo-variant-name`);
@@ -509,19 +524,24 @@ function initSvgLogoSwitcher(containerId) {
     const patchLogoContainer = rootContainer.querySelector(`#${containerId}-patch-logo-container`);
     emblemLogoContainer.innerHTML = EmblemLogoSvg;
     patchLogoContainer.innerHTML = PatchLogoSvg;
-    emblemLogoElement = emblemLogoContainer.querySelector('#Layer_1_Emblem'); // IDs are unique globally
-    patchLogoElement = patchLogoContainer.querySelector('#Layer_1_Patch');   // IDs are unique globally
+    emblemLogoElement = emblemLogoContainer.querySelector('#Layer_1_Emblem');
+    patchLogoElement = patchLogoContainer.querySelector('#Layer_1_Patch');
     colorPaletteContainer = rootContainer.querySelector(`#${containerId}-color-palette-container`);
     selectedColorNameDisplay = rootContainer.querySelector(`#${containerId}-selected-color-name`);
 
     // Initialize state based on theme and default color (Satin)
     selectedColorName = satinOption.name;
-    currentColor = satinOption.lightValue;
-
+    
     // Apply initial theme and set up listener
-    applyTheme(currentTheme);
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
-        applyTheme('light'); // Always apply light theme
+    const initialTheme = getTheme();
+    applyTheme(initialTheme);
+    
+    // Set initial color
+    handleColorChange(satinOption);
+
+    window.addEventListener('themeChanged', (e) => {
+        applyTheme(e.detail.theme);
+        handleColorChange(paletteColors.find(c => c.name === selectedColorName));
     });
 
     // Attach event listeners
@@ -538,10 +558,3 @@ function initSvgLogoSwitcher(containerId) {
         }
     });
 }
-
-// You would call this function in your existing HTML page like this:
-// <div id="my-logo-switcher-container"></div>
-// <script src="svgLogoSwitcher.js"></script>
-// <script>
-//   initSvgLogoSwitcher('my-logo-switcher-container');
-// </script>

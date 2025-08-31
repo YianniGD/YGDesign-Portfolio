@@ -47,7 +47,7 @@ export default function Contact() {
                 window.calendar.schedulingButton.load({
                     url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ3tekT7UhEMJNt5XhJFGkF_opjFCF-8WHVUyQnR8i82l7gLf_kCH3ZevAWtp1_vhdqQUsMV9YR5?gv=true',
                     color: '#039BE5',
-                    label: 'Book an appointment',
+                    label: 'Book a call',
                     target: calendarButtonContainer,
                 });
             } catch (e) {
